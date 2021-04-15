@@ -1,0 +1,1855 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Sarrasine_TEI_Valtix_Lemaire_Gasiglia</title>
+			</titleStmt>
+			<publicationStmt>
+				<authority>Valtix Laurine et Lemaire Élodie, avec manipulations des divisions de récits enchâssé par Gasiglia Nathalie</authority>
+				<availability><p>Diffusion limitée aux étudiants des M. LTTAC, EdNITL, Italien EdNITL et LCE</p></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<p>édition Houssiaux (disponible en Wikisource) enrichie d'une comparaison textuelle
+					avec l'édition Furne (disponible dans le cadre du projet eBalzac)</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<docTitle>
+				<titlePart>SARRASINE</titlePart>
+			</docTitle>
+			<docAuthor>Balzac</docAuthor>
+			<div type="dedication">
+				<salute>À <persName type="person">MONSIEUR CHARLES DE BERNARD <choice>
+							<orig>DU</orig>
+							<reg>DE</reg>
+						</choice> GRAIL</persName><choice>
+						<orig>.</orig>
+					</choice></salute>
+			</div>
+		</front>     
+		<body>
+			<div type="narrative">
+				<p>J’étais plongé dans une de ces rêveries profondes qui saisissent tout le monde,
+					même un homme frivole, au sein des fêtes les plus tumultueuses.
+						<time>Minuit</time> venait de sonner à l’horloge de <placeName><choice>
+							<orig>l’Elysée</orig>
+							<reg>l’Élysée</reg>
+						</choice>-Bourbon</placeName>. Assis dans l’embrasure d’une fenêtre, et
+					caché sous les <choice>
+						<orig>plis</orig>
+						<reg>plus</reg>
+					</choice> onduleux d’un rideau de moire, je pouvais contempler à mon aise
+						<placeName>le jardin de l’hôtel</placeName> où je passais la soirée. Les
+					arbres, imparfaitement couverts de neige, se détachaient faiblement du fond
+					grisâtre que formait un ciel nuageux, à peine blanchi par la lune. Vus au sein
+					de cette atmosphère fantastique, ils ressemblaient vaguement à des spectres mal
+					enveloppés de leurs linceuls, image gigantesque de la fameuse <name><choice>
+							<orig>Danse</orig>
+							<reg>danse</reg>
+						</choice> des morts</name>. Puis, en me retournant de l’autre côté, je
+					pouvais admirer la danse des vivants ! <placeName>un salon</placeName>
+					splendide, aux parois d’argent et d’or, aux lustres étincelants, brillant de
+					bougies. Là, fourmillaient, s’agitaient et papillonnaient les plus jolies femmes
+					de <placeName>Paris</placeName>, les plus riches, les mieux titrées, éclatantes,
+					pompeuses, éblouissantes de diamants ! des fleurs sur la tête, sur le sein, dans
+					les cheveux, semées sur les robes, ou en guirlandes à leurs pieds. C’était de
+					légers frémissements de joie, des pas voluptueux qui faisaient rouler les
+					dentelles, les blondes, la mousseline autour de leurs flancs délicats. Quelques
+					regards trop vifs perçaient çà et là, éclipsaient les lumières, le feu des
+					diamants, et animaient encore des cœurs trop ardents. On surprenait aussi des
+					airs de tête significatifs pour les amants, et des attitudes négatives pour les
+					maris. Les éclats de voix des joueurs, à chaque coup imprévu, le retentissement
+					de l’or se mêlaient à la musique, au murmure des conversation<choice>
+						<orig>s</orig>
+					</choice> ; pour achever d’étourdir cette foule enivrée par tout ce que le monde
+					peut offrir de séductions, une vapeur de parfums et l’ivresse générale
+					agissaient sur les imaginations affolées. Ainsi<choice>
+						<reg>,</reg>
+					</choice> à ma droite<choice>
+						<reg>,</reg>
+					</choice> la sombre et silencieuse image de la mort; à ma gauche, les décentes
+					bacchanales de la vie : ici, la nature froide, morne, en deuil; là, les hommes
+					en joie. Moi, sur la frontière de ces deux tableaux si disparates, qui, mille
+					fois répétés de diverses manières, rendent <placeName>Paris</placeName> la ville
+					la plus amusante du monde et la plus philosophique, je faisais une macédoine
+					morale, moitié plaisante, moitié funèbre. Du pied gauche je marquais la mesure,
+					et je croyais avoir l’autre dans un cercueil. Ma jambe était en effet glacée par
+					un de ces vents coulis qui vous gèlent une moitié du corps tandis que l’autre
+					éprouve la chaleur moite des salons, accident assez fréquent au bal.</p>
+			</div>
+			<div type="dialogue">
+				<said>— Il n’y a pas fort longtemps que
+					<persName type="person" key="M_Lanty">monsieur de Lanty</persName> possède <placeName>cet hôtel</placeName> ?</said>
+				<said>— Si fait. Voici bientôt <time>dix ans</time> que <persName type="character"
+						>le maréchal de Carigliano</persName> le lui a vendu<choice>
+						<reg>...</reg>
+					</choice></said>
+				<said>— Ah !</said>
+				<said>— Ces gens-là doivent avoir une fortune immense ?</said>
+				<said>— Mais il le faut bien.</said>
+				<said>— Quelle fête ! Elle est d’un luxe insolent.</said>
+				<said>— Les croyez-vous aussi riches que le sont <persName type="character">monsieur
+						de Nucingen</persName> ou <persName type="character">monsieur de
+						Gondreville</persName> ?</said>
+				<said>— Mais vous ne savez donc pas ?</said>
+			</div>
+			<div type="narrative">
+				<p>J’avançai la tête et reconnus les deux interlocuteurs pour appartenir à cette
+					gent curieuse qui, à <placeName>Paris</placeName>, s’occupe exclusivement des
+					Pourquoi ? des Comment ? D’où vient-il ? Qui sont-ils ? Qu’y a-t-il ?
+					Qu’a-t-elle fait ? Ils se mirent à parler bas, et s’éloignèrent pour aller
+					causer plus à l’aise sur quelque canapé solitaire. Jamais mine plus féconde ne
+					s’était ouverte aux chercheurs de mystères. Personne ne savait de quel pays
+					venait <persName type="person">la famille de Lanty</persName>, ni de quel
+					commerce, de quelle spoliation, de quelle piraterie ou de quel héritage
+					provenait une fortune estimée à plusieurs millions. Tous les membres de cette
+					famille parlaient l’italien, le français, l’espagnol, l’anglais et l’allemand,
+					avec assez de perfection pour faire supposer qu’ils avaient dû long<choice>
+						<orig>-</orig>
+					</choice>temps séjourner parmi ces différents peuples. Étaient-ce des
+					bohémiens ? étaient-ce des flibustiers ?</p>
+			</div>
+			<div type="dialogue">
+				<said>— Quand ce serait le diable ! <desc>disaient de jeunes politiques</desc>, ils
+					reçoivent à merveille.</said>
+				<said>— <persName type="person" key="M_Lanty">Le comte de Lanty</persName> eût-il dévalisé quelque <placeName><choice>
+							<orig>Casbah</orig>
+							<reg>Casauba</reg>
+						</choice></placeName>, j’épouserais bien sa fille ! <desc>s’écriait un
+						philosophe</desc>.</said>
+			</div>
+			<div type="narrative">
+				<p>Qui n’aurait épousé <persName type="character" key="Marianina">Marianina</persName>, jeune fille
+					de seize ans, dont la beauté réalisait les fabuleuses conceptions des poètes
+					orientaux ? Comme la fille du sultan dans <title>le conte de <choice>
+							<orig>la</orig>
+							<reg>La</reg>
+						</choice> Lampe merveilleuse</title>, elle aurait dû rester voilée. Son
+					chant faisait pâlir les talents incomplets <persName type="person">des
+						Malibran</persName>, <persName type="person">des Sontag</persName>,
+						<persName type="person">des Fodor</persName>, chez lesquelles une qualité
+					dominante a toujours exclu la perfection de l’ensemble; tandis que <persName
+						type="character" key="Marianina">Marianina</persName> savait unir au même degré la pureté du
+					son, la sensibilité, la justesse du mouvement et des intonations, l’âme et la
+					science, la correction et le sentiment. <persName type="character" key="Marianina">Cette fille</persName> était le type de cette
+					poésie secrète, lien commun de tous les arts, et qui fuit toujours ceux qui la
+					cherchent. Douce et modeste, instruite et spirituelle, rien ne pouvait éclipser
+					<persName type="character" key="Marianina">Marianina</persName> si ce n’était <persName type="person" key="Mme_Lanty">sa mère</persName>.
+					Avez-vous jamais rencontré de ces femmes dont la beauté foudroyante défie les
+					atteintes de l’âge, et qui semblent à trente-six ans plus désirables qu’elles ne
+					devaient <choice>
+						<orig>l’</orig>
+					</choice>être <time>quinze ans plus tôt</time> ? Leur visage est une âme
+					passionnée, il étincelle; chaque trait y brille d’intelligence<choice>
+						<orig> :</orig>
+						<reg> ;</reg>
+					</choice> chaque pore possède un éclat particulier, surtout aux lumières. Leurs
+					yeux séduisants attirent, refusent, parlent ou se taisent; leur démarche est
+					innocemment savante; leur voix déploie les mélodieuses richesses des tons les
+					plus coquettement doux et tendres. Fondés sur des comparaisons, leurs éloges
+					caressent l’amour<choice>
+						<orig> </orig>
+						<reg>-</reg>
+					</choice>propre le plus chatouilleux. Un mouvement de leurs sourcils, le moindre
+					jeu de l’œil, leur lèvre qui se fronce, impriment une sorte de terreur à ceux
+					qui font dépendre d’elles leur vie et leur bonheur. Inexpériente de l’amour et
+					docile au discours, une jeune fille peut se laisser séduire; mais pour ces
+					sortes de femmes, un homme doit savoir, comme <persName type="person">monsieur
+						de Jaucourt</persName>, ne pas crier quand, en se cachant au fond d’un
+					cabinet, la femme de chambre lui brise deux doigts dans la jointure d’une porte.
+					Aimer ces puissantes sirènes, n’est-ce pas jouer sa vie ? Et voilà pourquoi
+					peut-être les aimons-nous si passionnément ! Telle était <persName type="person" key="Mme_Lanty"
+						>la comtesse de Lanty</persName>. <persName type="character"
+						>Filippo</persName>, frère de <persName type="character" key="Marianina"
+							>Marianina</persName>, tenait, comme <persName type="character" key="Marianina">sa sœur</persName>, 
+					de la beauté merveilleuse de
+						<persName type="person" key="Mme_Lanty">la comtesse</persName>. Pour tout dire en un mot, ce
+					jeune homme était une image vivante de <title>l’Antinoüs</title>, avec des
+					formes plus grêles. Mais comme ces maigres et délicates proportions s’allient
+					bien à la jeunesse quand un teint olivâtre, des sourcils vigoureux et le feu
+					d’un œil velouté promettent pour l’avenir des passions mâles, des idées
+					généreuses ! Si <persName type="character">Filippo</persName> restait, dans tous
+					les cœurs de jeunes filles, comme un type, il demeurait également dans le
+					souvenir de toutes les mères, comme le meilleur parti de
+						<geogName>France</geogName>. La beauté, la fortune, l’esprit, les grâces de
+					ces deux enfants venaient uniquement de leur mère. 
+					<persName type="person" key="M_Lanty">Le comte de Lanty</persName> était petit, laid et <choice>
+						<orig>grêlé</orig>
+						<reg>grêle</reg>
+					</choice> ; sombre comme un Espagnol, ennuyeux comme un banquier. Il passait
+					d’ailleurs pour un profond politique, peut-être parce qu’il riait rarement, et
+					citait toujours <persName type="person">monsieur de Metternich</persName> ou
+						<persName type="person">Wellington</persName>. Cette mystérieuse famille
+					avait tout l’attrait d’un poème de <persName type="person">lord
+					Byron</persName>, dont les difficultés étaient traduites d’une manière
+					différente par chaque personne du beau monde : un chant obscur et sublime de
+					strophe en strophe. La réserve que <persName type="org">monsieur et madame de
+						Lanty</persName> gardaient sur leur origine, sur leur existence passée et
+					sur leurs relations avec les quatre parties du monde n’eût pas été longtemps un
+					sujet d’étonnement à <placeName>Paris</placeName>. En nul pays peut-être
+						<name>l’axiome de <persName type="person">Vespasien</persName></name> n’est
+					mieux compris. Là, les écus même tachés de sang ou de boue ne trahissent rien et
+					représentent tout. Pourvu que la haute société sache le chiffre de votre
+					fortune, vous êtes classé parmi les sommes qui vous sont <choice>
+						<orig>égales</orig>
+						<reg>étalés</reg>
+					</choice>, et personne ne vous demande à voir vos parchemins, parce que tout le
+					monde sait combien peu ils coûtent. Dans une ville où les problèmes sociaux se
+					résolvent par des équations algébriques, les aventuriers ont en leur faveur
+					d’excellentes chances. En supposant que cette famille <choice>
+						<orig>eût</orig>
+						<reg>eut</reg>
+					</choice> été bohémienne d’origine, elle était si riche, si attrayante, que la
+					haute société pouvait bien lui pardonner ses petits mystères. Mais, par malheur,
+					l’histoire énigmatique de <persName type="org">la maison Lanty</persName>
+					offrait un perpétuel intérêt de curiosité, assez semblable à celui des romans
+						d’<persName type="person">Anne Radcliffe</persName>. Les observateurs, ces
+					gens qui tiennent à savoir dans quel magasin vous achetez vos candélabres, ou
+					qui vous demandent le prix du loyer quand <placeName>votre
+						appartement</placeName> leur semble beau, avaient remarqué, de loin en loin,
+					au milieu des fêtes, des concerts, des bals, des raouts donnés par 
+					<persName type="person" key="Mme_Lanty">la comtesse</persName>, l’apparition d’un personnage étrange.
+					C’était un homme. La première fois qu’il se montra dans
+						<placeName>l’hôtel</placeName>, ce fut pendant un concert, où il semblait
+					avoir été attiré vers le salon par la voix enchanteresse de 
+					<persName type="character" key="Marianina">Marianina</persName>.</p>
+			</div>
+			<div type="dialogue">
+				<said>— Depuis un moment, j’ai froid<choice>
+						<reg> </reg>
+					</choice>, <desc>dit à sa voisine une dame placée près de la
+					porte</desc>.</said>
+			</div>
+			<div type="narrative">
+				<p>L’inconnu, qui se trouvait près de cette femme, s’en alla.</p>
+			</div>
+			<div type="dialogue">
+				<said>— Voilà qui est singulier ! j’ai chaud, dit cette femme après le départ de
+					l’étranger. Et vous me taxerez peut-être de folie, mais je ne saurais m’empêcher
+					de penser que mon voisin, ce monsieur vêtu de noir qui vient de partir, causait <choice>
+						<orig>ce</orig>
+						<reg>le</reg>
+					</choice> froid.</said>
+			</div>
+			<div type="narrative">
+				<p>Bientôt l’exagération naturelle aux gens de la haute société fit naître et
+					accumuler les idées les plus plaisantes, les expressions les plus bizarres, les
+					contes les plus ridicules sur ce personnage mystérieux. Sans être précisément un
+					vampire, une goule, un homme artificiel, une espèce de <persName
+						type="character">Faust</persName> ou de <persName type="character">Robin des
+						bois</persName>, il participait, au dire des gens amis du fantastique, de
+					toutes ces natures anthropomorphes. Il se rencontrait çà et là des Allemands qui
+					prenaient pour des réalités ces railleries ingénieuses de la médisance
+					Parisienne. L’étranger était simplement un vieillard. Plusieurs de ces jeunes
+					hommes, habitués à décider, tous les matins, l’avenir de
+						l’<geogName>Europe</geogName>, dans quelques phrases élégantes, voulaient
+					voir en l’inconnu quelque grand criminel, possesseur d’immenses richesses. Des
+					romanciers racontaient la vie de ce vieillard, et vous donnaient des détails
+					véritablement curieux sur les atrocités commises par lui pendant le temps qu’il
+					était au service du <persName type="person">prince de
+							<placeName>Mysore</placeName></persName>. Des banquiers, gens plus
+					positifs, établissaient une fable <choice>
+						<orig>spécieuse</orig>
+						<reg>spacieuse</reg>
+					</choice> : </p>
+			</div>
+			<div type="dialogue">
+				<said>— Bah ! <desc>disaient-ils en haussant leurs larges épaules par un mouvement
+						de pitié</desc>, ce petit vieux est une tête génoise !</said>
+				<said>— Monsieur, si ce n’est pas une indiscrétion, pourriez-vous avoir la bonté de
+					m’expliquer ce que vous entendez par une tête génoise ?</said>
+				<said>— Monsieur, c’est un homme sur la vie duquel reposent d’énormes capitaux, et
+					de sa bonne santé dépendent sans doute les revenus de cette famille. Je me
+					souviens d’avoir entendu <placeName>chez <persName type="character">madame
+							d’Espard</persName></placeName> un magnétiseur prouvant, par des
+					considérations historiques très<choice>
+						<orig>-</orig>
+						<reg> </reg>
+					</choice>spécieuses, que ce vieillard, mis sous verre, était le fameux <persName
+						type="person"><choice>
+							<orig>Balsamo</orig>
+							<reg>Basalmo</reg>
+						</choice></persName>, <desc>dit <persName type="person"
+							>Cagliostro</persName></desc>.</said>
+			</div>
+			<div type="narrative">
+				<p>Selon ce moderne alchimiste, l’aventurier sicilien avait échappé à la mort, et
+					s’amusait à faire de l’or pour ses petits-enfants. Enfin le bailli de <placeName><choice>
+							<orig>Ferette</orig>
+							<reg>Ferrette</reg>
+						</choice></placeName> prétendait avoir reconnu dans ce singulier personnage
+						<persName type="person">le comte de Saint-Germain</persName>. Ces
+					niaiseries, dites avec le ton spirituel, avec l’air railleur qui, <time>de nos
+						jours</time>, caractérise une société sans croyances, entretenaient de
+					vagues soupçons sur <persName type="org">la maison de Lanty</persName>. Enfin,
+					par un singulier concours de circonstances, les membres de cette famille
+					justifiaient les conjectures du monde, en tenant une conduite assez mystérieuse
+					avec ce vieillard, dont la vie était en quelque sorte dérobée à toutes les
+					investigations. Ce personnage franchissait-il le seuil de
+						l’<placeName>appartement</placeName> qu’il était censé occuper à
+						<placeName>l’hôtel de Lanty</placeName>, son apparition causait toujours une
+					grande sensation dans la famille. On eût dit un événement de haute importance.
+						<persName type="character">Filippo</persName>, <persName type="character" key="Marianina"
+						>Marianina</persName>, <persName type="person" key="Mme_Lanty">madame de Lanty</persName> et
+					un vieux domestique avaient seuls le <choice>
+						<orig>privilége</orig>
+						<reg>privilège</reg>
+					</choice> d’aider l’inconnu à marcher, à se lever, à s’asseoir. Chacun en
+					surveillait les moindres mouvements. Il semblait que ce fût une personne
+					enchantée de qui dépendissent le bonheur, la vie ou la fortune de tous. <choice>
+						<orig>Etait</orig>
+						<reg>Était</reg>
+					</choice>-ce crainte ou affection ? Les gens du monde ne pouvaient découvrir
+					aucune induction qui les aidât à résoudre ce problème. Caché pendant <time>des
+						mois entiers</time> au fond d’un sanctuaire inconnu, ce génie familier en
+					sortait tout à coup comme furtivement, sans être attendu, et apparaissait au
+					milieu des salons comme ces fées d’autrefois qui descendaient de leurs dragons
+					volants pour venir troubler les solennités auxquelles elles n’avaient pas été
+					conviées. Les observateurs les plus exercés pouvaient alors seuls deviner
+					l’inquiétude des maîtres du logis, qui savaient dissimuler leurs sentiments avec
+					une singulière habileté. Mais, parfois, tout en dansant dans un quadrille,
+					<persName type="character" key="Marianina">la trop naïve Marianina</persName> jetait un regard de
+					terreur sur le vieillard qu’elle surveillait au sein des groupes. Ou bien
+						<persName type="character">Filippo</persName> s’élançait en se glissant à
+					travers la foule, pour le joindre, et restait auprès de lui, tendre et attentif,
+					comme si le contact des hommes ou le moindre souffle dût briser cette créature
+					bizarre. <persName type="person" key="Mme_Lanty">La comtesse</persName> tâchait de s’en
+					approcher, sans paraître avoir eu l’intention de le rejoindre; puis, en prenant
+					des manières et une physionomie autant empreintes de servilité que de tendresse,
+					de soumission que de despotisme, elle disait deux ou trois mots auxquels
+					déférait presque toujours le vieillard, il disparaissait emmené, ou, pour mieux
+					dire, emporté par elle. Si <persName type="person" key="Mme_Lanty">madame de Lanty</persName>
+					n’était pas là, <persName type="person" key="M_Lanty">le comte</persName> employait mille
+					stratagèmes pour arriver à lui; mais il avait l’air de s’en faire écouter
+					difficilement, et le traitait comme un enfant gâté dont la mère écoute les
+					caprices ou redoute la mutinerie. Quelques indiscrets s’étant hasardés à
+					questionner étourdiment <persName type="person" key="M_Lanty">le comte de Lanty</persName>,
+					<persName type="person" key="M_Lanty">cet homme froid et réservé</persName> n’avait 
+					jamais paru comprendre l’interrogation des
+					curieux. Aussi, après bien des tentatives, que la circonspection de tous les
+					membres de cette famille rendit vaines, personne ne chercha-t-il à découvrir un
+					secret si bien gardé. Les espions de bonne compagnie, les gobe-mouches et les
+					politiques avaient fini, de guerre lasse, par ne plus s’occuper de ce mystère. Mais<choice>
+						<orig>,</orig>
+					</choice> en ce moment il y avait peut-être au sein de <placeName>ces
+						salons</placeName> resplendissants des philosophes qui, tout en prenant une
+					glace, un sorbet, ou en posant sur une console leur verre vide de punch, se
+					disaient :</p>
+			</div>
+			<div type="dialogue">
+				<said>— Je ne serais pas étonné d’apprendre que ces gens-là sont des fripons. Ce
+					vieux, qui se cache et n’apparaît qu’aux équinoxes ou aux solstices, m’a tout
+					l’air d’un assassin…</said>
+				<said>— Ou d’un banqueroutier…</said>
+				<said>— C’est à peu près la même chose. Tuer la fortune d’un homme, c’est
+					quelquefois pis que de le tuer lui-même.</said>
+				<said>— Monsieur, j’ai parié vingt louis, il m’en revient quarante.</said>
+				<said>— Ma foi ! monsieur, il n’en reste que trente sur le tapis…</said>
+				<said>— Hé<choice>
+						<orig> !</orig>
+					</choice> bien, voyez-vous comme la société est mêlée ici. On n’y peut pas
+					jouer.</said>
+				<said>— C’est vrai. Mais voilà bientôt <time>six mois</time> que nous n’avons aperçu
+					l’Esprit. Croyez-vous que ce soit un être vivant ?</said>
+				<said>— Hé ! hé ! tout au plus<choice>
+						<reg>...</reg>
+					</choice></said>
+			</div>
+			<div type="narrative">
+				<p>Ces derniers mots étaient dits, autour de moi, par des inconnus qui s’en allèrent
+						<time>au moment</time> où je résumais, dans une dernière pensée, mes
+					réflexions mélangées de noir et de blanc, de vie et de mort. Ma folle
+					imagination autant que mes yeux contemplait tour à tour et la fête, arrivée à
+					son plus haut degré de splendeur, et le sombre tableau <placeName>des
+						jardins</placeName>. Je ne sais combien de temps je méditai sur ces deux
+					côtés de la médaille humaine; mais soudain le rire étouffé d’une jeune femme me
+					réveilla. Je restai stupéfait à l’aspect de l’image qui s’offrit à mes regards.
+					Par un des plus rares caprices de la nature, la pensée en demi-deuil qui se
+					roulait dans ma cervelle en était sortie, elle se trouvait devant moi,
+					personnifiée, vivante, elle avait jailli comme <persName type="divinity"
+						>Minerve</persName> de la tête de <persName type="divinity"
+						>Jupiter</persName>, grande et forte, elle avait tout à la fois cent ans et
+					vingt-deux ans, elle était vivante et morte. Échappé de <placeName>sa
+						chambre</placeName>, comme un fou de <placeName>sa loge</placeName>, le
+					petit vieillard s’était sans doute adroitement coulé derrière une haie de gens
+					attentifs à la voix de <persName type="character">Marianina</persName>, qui
+					finissait <title>la cavatine de <persName type="person"
+						>Tancrède</persName></title>. Il semblait être sorti de dessous terre,
+					poussé par quelque mécanisme de théâtre. Immobile et sombre, il resta pendant un
+					moment à regarder cette fête, dont le murmure avait peut-être atteint à ses
+					oreilles. Sa préoccupation, presque somnambulique, était si concentrée sur les
+					choses qu’il se trouvait au milieu du monde sans voir le monde. Il avait surgi
+					sans cérémonie auprès d’une des plus ravissantes femmes de
+						<placeName>Paris</placeName>, danseuse élégante et jeune, aux formes
+					délicates, une de ces figures aussi fraîches que l’est celle d’un enfant,
+					blanches et rose<choice>
+						<orig>s</orig>
+					</choice>, et si frêles, si transparentes, qu’un regard d’homme semble devoir
+					les pénétrer, comme les rayons du soleil traversent une glace pure. Ils étaient
+					là, devant moi, tous deux, ensemble, unis et si serrés<choice>
+						<orig>,</orig>
+					</choice> que l’étranger froissait et la robe de gaze, et les guirlandes de
+					fleurs, et les cheveux légèrement crêpés, et la ceinture flottante. J’avais
+					amené cette jeune femme au bal de 
+					<persName type="person" key="Mme_Lanty">madame de Lanty</persName>. Comme elle venait pour la première fois dans cette maison,
+					je lui pardonnai son rire étouffé; mais je lui fis vivement je ne sais quel
+					signe impérieux qui la rendit tout interdite et lui donna du respect pour son
+					voisin. Elle s’assit près de moi. Le vieillard ne voulut pas quitter cette
+					délicieuse créature, à laquelle il s’attacha capricieusement avec cette
+					obstination muette et sans cause apparente, dont sont susceptibles les gens
+					extrêmement âgés, et qui les fait ressembler à des enfants. Pour s’asseoir
+					auprès de la jeune dame, il lui fallut prendre un pliant. Ses moindres
+					mouvements furent empreints de cette lourdeur froide, de cette stupide
+					indécision qui <choice>
+						<orig>caractérise</orig>
+						<reg>caractérisent</reg>
+					</choice> les gestes d’un paralytique. Il se posa lentement sur son <choice>
+						<orig>siége</orig>
+						<reg>siège</reg>
+					</choice>, avec circonspection, et en grommelant quelques paroles
+					inintelligibles. Sa voix cassée ressembla au bruit que fait une pierre en
+					tombant dans <placeName>un puits</placeName>. La jeune femme me pressa vivement
+					la main, comme si elle eût cherché à se garantir d’un précipice, et frissonna
+					quand cet homme, qu’elle regardait, tourna sur elle deux yeux sans chaleur, deux
+					yeux glauques qui ne pouvaient se comparer qu’à de la nacre ternie.</p>
+			</div>
+			<div type="dialogue">
+				<said>— J’ai peur, <desc>me dit-elle en se penchant à mon oreille</desc>.</said>
+				<said>— Vous pouvez parler, <desc>répondis-je</desc>. Il entend très<choice>
+						<orig>-</orig>
+						<reg> </reg>
+					</choice>difficilement.</said>
+				<said>— Vous le connaissez donc ?</said>
+				<said>— Oui.</said>
+			</div>
+			<div type="narrative">
+				<p>Elle s’enhardit alors assez pour examiner pendant un moment cette créature sans
+					nom dans le langage humain, forme sans substance, être sans vie, ou vie sans
+					action. Elle était sous le charme de cette craintive curiosité qui pousse les
+					femmes à se procurer des émotions dangereuses, à voir des tigres enchaînés, à
+					regarder des boas, en s’effrayant de n’en être séparées que par de faibles
+					barrières. Quoique le petit vieillard eût le dos courbé comme celui d’un
+					journalier, on s’apercevait facilement que sa taille avait dû être ordinaire.
+					Son excessive maigreur, la délicatesse de ses membres, prouvaient que ses
+					proportions étaient toujours restées sveltes. Il portait une culotte de soie
+					noire, qui flottait autour de ses cuisses décharnées en décrivant des plis comme
+					une voile abattue. Un anatomiste eût reconnu soudain les symptômes d’une
+					affreuse étisie en voyant les petites jambes qui servaient à soutenir ce corps
+					étrange. Vous eussiez dit de deux os mis en croix sur une tombe. Un sentiment de
+					profonde horreur pour l’homme saisissait le cœur quand une fatale attention vous
+					dévoilait les marques imprimées par la décrépitude à cette casuelle machine.
+					L’inconnu portait un gilet blanc, brodé d’or, à l’ancienne mode, et son linge
+					était d’une blancheur éclatante. Un jabot de <name>dentelle
+							d’<geogName>Angleterre</geogName></name> assez roux, dont la richesse
+					eût été enviée par une reine, formait des ruches jaunes sur sa poitrine; mais
+					sur lui cette dentelle était plutôt un haillon qu’un ornement. Au milieu de ce
+					jabot, un diamant d’une valeur incalculable scintillait comme le soleil. Ce luxe
+					suranné, ce trésor intrinsèque et sans goût, faisaient encore mieux ressortir la
+					figure de cet être bizarre. Le cadre était digne du portrait. Ce visage noir
+					était anguleux et <choice>
+						<orig>creusé</orig>
+						<reg>creuse</reg>
+					</choice> dans tous les sens. Le menton était creux; les tempes étaient creuses;
+					les yeux étaient perdus en de jaunâtres orbites. Les os maxillaires, rendus
+					saillants par une maigreur indescriptible<choice>
+						<reg>s</reg>
+					</choice>, dessinaient des cavités au milieu de chaque joue. Ces gibbosités,
+					plus ou moins éclairées par les lumières, produisirent des ombres et des reflets
+					curieux qui achevaient d’ôter à ce visage les caractères de la face humaine.
+					Puis <time>les années</time> avaient si fortement collé sur les os la peau jaune
+					et fine de ce visage qu’elle y décrivait partout une multitude de rides ou
+					circulaires, comme les replis de l’eau troublée par un caillou que jette un
+					enfant, ou étoilées comme une fêlure de vitre, mais toujours profondes et aussi
+					pressées que les feuillets dans la tranche d’un livre. Quelques vieillards nous
+					présentent souvent des portraits plus hideux; mais ce qui contribuait le plus à
+					donner l’apparence d’une création artificielle au spectre survenu devant nous,
+					était le rouge et le blanc dont il reluisait. Les sourcils de son masque
+					recevaient de la lumière un lustre qui révélait une peinture très<choice>
+						<orig>-</orig>
+						<reg> </reg>
+					</choice>bien exécutée. Heureusement pour la vue attristée de tant de ruines,
+					son crâne cadavéreux était caché sous une perruque blonde dont les boucles
+					innombrables trahissaient une prétention extraordinaire. Du reste, la
+					coquetterie féminine de ce personnage fantasmagorique était assez énergiquement
+					annoncée par les boucles d’or qui pendaient à ses oreilles, par les anneaux dont
+					les admirables pierreries brillaient à ses doigts ossifiés, et par une chaîne de
+					montre qui scintillait comme les chatons d’une rivière au cou d’une femme.
+					Enfin, cette espèce d’idole japonaise conservait sur ses lèvres bleuâtres un
+					rire fixe et arrêté, un rire implacable et goguenard, comme celui d’une tête de
+					mort. Silencieuse, immobile autant qu’une statue, elle exhalait l’odeur musquée
+					des vieilles robes que les héritiers d’une duchesse exhument de ses tiroirs
+					pendant un inventaire. Si le vieillard tournait les yeux vers l’assemblée, il
+					semblait que les mouvements de ces globes incapables de réfléchir une lueur se
+					fussent accomplis par un artifice imperceptible; et quand les yeux s’arrêtaient,
+					celui qui les examinait finissait par douter qu’ils eussent remué. Voir, auprès
+					de ces débris humains, une jeune femme dont le cou, les bras et le corsage
+					étaient nus et blancs; dont les formes pleines et verdoyantes de beauté, dont
+					les cheveux bien plantés sur un front d’albâtre inspiraient l’amour, dont les
+					yeux ne recevaient pas, mais répandaient la lumière, qui était suave, fraîche,
+					et dont les boucles vaporeuses, dont l’haleine embaumée semblaient trop lourdes,
+					trop dures, trop puissantes pour cette ombre, pour cet homme en poussière; ah !
+					c’était bien la mort et la vie, ma pensée, une arabesque imaginaire, une chimère
+					hideuse à moitié, divinement femelle par le corsage.</p>
+			</div>
+			<div type="dialogue">
+				<said>— Il y a pourtant de ces mariages-là qui s’accomplissent assez souvent dans le monde<choice>
+						<reg> </reg>
+					</choice>, <desc>me dis-je</desc>.</said>
+				<said>— Il sent <placeName>le cimetière</placeName><choice>
+						<reg> </reg>
+					</choice>, <desc>s’écria la jeune femme épouvantée qui me pressa comme pour
+						s’assurer de ma protection, et dont les mouvements tumultueux me dirent
+						qu’elle avait grand<choice>
+							<orig>’</orig>
+							<reg>-</reg>
+						</choice>peur</desc>.</said>
+				<said>— C’est une horrible vision, <desc>reprit-elle</desc>, je ne saurais rester là
+					plus long<choice>
+						<orig>-</orig>
+					</choice>temps. Si je le regarde encore, je croirai que la mort elle-même est
+					venue me chercher. Mais vit-il ?</said>
+			</div>
+			<div type="narrative">
+				<p>Elle porta la main sur le phénomène avec cette hardiesse que les femmes puisent
+					dans la violence de leurs désirs; mais une sueur froide sortit de ses pores, car
+					aussitôt qu’elle eut touché le vieillard, elle entendit un cri semblable à celui
+					d’une crécelle. Cette aigre voix, si c’était une voix, s’échappa d’un gosier
+					presque desséché. Puis à cette clameur succéda vivement une petite toux
+					d’enfant, convulsive et d’une sonorité particulière. <choice>
+						<orig>A</orig>
+						<reg>À</reg>
+					</choice> ce bruit, <persName type="character" key="Marianina">Marianina</persName>, <persName
+						type="character">Filippo</persName> et 
+					<persName type="person" key="Mme_Lanty">madame de Lanty</persName> jetèrent les yeux sur nous, et leurs regards furent comme
+					des éclairs. La jeune femme aurait voulu être au fond de <geogName>la
+						Seine</geogName>. Elle prit mon bras et m’entraîna vers <placeName>un
+						boudoir</placeName>. Hommes et femmes, tout le monde nous fit place.
+					Parvenus au fond <placeName>des appartements de réception</placeName>, nous
+					entrâmes dans <placeName>un petit cabinet demi-circulaire</placeName>. Ma
+					compagne se jeta sur un divan, palpitant d’effroi, sans savoir où elle
+					était.</p>
+			</div>
+			<div type="dialogue">
+				<said>— Madame, vous êtes folle, <desc>lui dis-je</desc>.</said>
+				<said>— Mais, <desc>reprit-elle après un moment de silence pendant lequel je
+						l’admirai</desc>, est-ce ma faute ? Pourquoi 
+					<persName type="person" key="Mme_Lanty">madame de Lanty</persName> laisse-t-elle errer des revenants dans <placeName>son
+						hôtel</placeName> > ?</said>
+				<said>— Allons, <desc>répondis-je</desc>, vous imitez les sots. Vous prenez un petit
+					vieillard pour un spectre.</said>
+				<said>— Taisez-vous<choice>
+						<reg> </reg>
+					</choice>, <desc>répliqua-t-elle avec cet air imposant et railleur que toutes <choice>
+							<orig>les </orig>
+						</choice>femmes savent si bien prendre quand elles veulent avoir
+						raison</desc>.</said>
+				<said><choice>
+						<orig> </orig>
+						<reg> — </reg>
+					</choice><placeName>Le joli boudoir</placeName> ! <desc>s’écria-t-elle en
+						regardant autour d’elle</desc>. Le satin bleu fait toujours à merveille en
+					tenture. Est-ce frais ! Ah ! le beau tableau ! <desc>ajouta-t-elle en se levant,
+						et allant se mettre en face d’une toile magnifiquement
+					encadrée</desc>.</said>
+			</div>
+			<div type="narrative">
+				<p>Nous restâmes <time>pendant un moment</time> dans la contemplation de cette
+					merveille, qui semblait due à quelque pinceau surnaturel. Le tableau
+					représentait <persName type="character">Adonis</persName> étendu sur une peau de
+					lion. La lampe suspendue au milieu du boudoir, et contenue dans un vase
+					d’albâtre, illuminait alors cette toile d’une lueur douce qui nous permit de
+					saisir toutes les beautés de la peinture.</p>
+			</div>
+			<div type="dialogue">
+				<said>— Un être si parfait existe-t-il ? <desc>me demanda-t-elle après avoir
+						examiné, non sans un doux sourire de contentement, la grâce exquise des
+						contours, la pose, la couleur, les cheveux, tout enfin</desc>.</said>
+				<said>— Il est trop beau pour un homme<choice>
+						<reg> </reg>
+					</choice>, <desc>ajouta-t-elle après un examen pareil à celui qu’elle aurait
+						fait d’une rivale</desc>.</said>
+			</div>
+			<div type="narrative">
+				<p>Oh ! comme je ressentis alors les atteintes de cette jalousie à laquelle un poète
+					avait essayé vainement de me faire croire ! la jalousie des gravures, des
+					tableaux, des statues, où les artistes exagèrent la beauté humaine, par suite de
+					la doctrine qui les porte à tout idéaliser.</p>
+			</div>
+			<div type="dialogue">
+				<said>— C’est un portrait, <desc>lui répondis-je</desc>. Il est dû au talent de
+						<persName type="person">Vien</persName>. Mais ce grand peintre n’a jamais vu
+					l’original, et votre admiration sera moins vive peut-être quand vous saurez que
+					cette académie a été faite d’après une statue de femme.</said>
+				<said>— Mais qui est-ce ?</said>
+				<said>J’hésitai.</said>
+				<said>— Je veux le savoir, <desc>ajouta-t-elle vivement</desc>.</said>
+				<said>— Je crois, <desc>lui dis-je</desc>, que cet <persName type="character"
+						>Adonis</persName> représente un… un… un parent de 
+					<persName type="person" key="Mme_Lanty">madame de Lanty</persName>.</said>
+			</div>
+			<div type="narrative">
+				<p>J’eus la douleur de la voir abîmée dans la contemplation de cette figure. Elle
+					s’assit en silence, je me mis auprès d’elle, et lui pris la main sans qu’elle
+					s’en <choice>
+						<orig>aperçût</orig>
+						<reg>aperçut</reg>
+					</choice> ! Oublié pour un portrait ! En ce moment le bruit léger des pas d’une
+					femme dont la robe frémissait retentit dans le silence. Nous vîmes entrer
+					<persName type="character" key="Marianina">la jeune Marianina</persName>, plus brillante encore par
+					son expression d’innocence que par sa grâce et par sa fraîche toilette; elle
+					marchait alors lentement, et tenait avec un soin maternel, avec une filiale
+					sollicitude, le spectre habillé qui nous avait fait fuir du salon de musique;
+					elle le conduisit en le regardant avec une espèce d’inquiétude posant lentement
+					ses pieds débiles. Tous deux, ils arrivèrent assez péniblement à une porte
+					cachée dans la tenture. <choice>
+						<orig>Là</orig>
+						<reg>La</reg>
+					</choice>, <persName type="character" key="Marianina">Marianina</persName> frappa doucement.
+					Aussitôt apparut, comme par magie, un grand homme sec, espèce de génie familier.
+					Avant de confier le vieillard à ce gardien mystérieux, la jeune enfant baisa
+					respectueusement le cadavre ambulant, et sa chaste caresse ne fut pas exempte de
+					cette câlinerie gracieuse dont le secret appartient à quelques femmes
+					privilégiées.</p>
+			</div>
+			<div type="dialogue">
+				<said>— Addio, addio ! <desc>disait-elle avec les inflexions les plus jolies de sa
+						jeune voix</desc>.</said>
+			</div>
+			<div type="narrative">
+				<p>Elle ajouta même sur la dernière syllabe une roulade admirablement bien exécutée,
+					mais à voix basse, et comme pour peindre l’effusion de son cœur par une
+					expression poétique. Le vieillard, frappé subitement par quelque souvenir, resta
+					sur le seuil de ce réduit secret. Nous entendîmes alors, grâce à un profond
+					silence, le soupir lourd qui sortit de sa poitrine : il tira la plus belle des
+					bagues dont ses doigts de squelette étaient <choice>
+						<orig>chargés</orig>
+						<reg>chargées</reg>
+					</choice>, et la plaça dans le sein de <persName type="character" key="Marianina">Marianina</persName>. 
+					<persName type="character" key="Marianina">La jeune folle</persName> se mit à rire, reprit la bague, la
+					glissa par-dessus son gant à l’un de ses doigts, et s’élança vivement vers
+						<placeName>le salon</placeName>, <choice>
+						<orig>où</orig>
+						<reg>ou</reg>
+					</choice> retentirent en ce moment les préludes d’une contredanse. Elle nous
+					aperçut.</p>
+			</div>
+			<div type="dialogue">
+				<said>— Ah ! vous étiez là ! <desc>dit-elle en rougissant</desc>.</said>
+			</div>
+			<div type="narrative">
+				<p>Après nous avoir regardés comme pour nous interroger, elle courut à son danseur
+					avec l’insouciante pétulance de son âge.</p>
+			</div>
+			<div type="dialogue">
+				<said>— Qu’est-ce que cela veut dire ? <desc>me demanda ma jeune partenaire</desc>.
+					Est-ce son mari ? Je crois rêver. Où suis-je ?</said>
+				<said>— Vous ! <desc>répondis-je</desc>, vous, madame, qui êtes exaltée et qui,
+					comprenant si bien les émotions les plus imperceptibles, savez cultiver dans un
+					cœur d’homme le plus délicat des sentiments, sans le flétrir, sans le briser <choice>
+						<orig>dès</orig>
+						<reg>des </reg>
+					</choice>le premier jour, vous qui avez pitié des peines du cœur<choice>
+						<orig>,</orig>
+					</choice> et qui <choice>
+						<orig>à</orig>
+						<reg>a</reg>
+					</choice> l’esprit d’une Parisienne joignez une âme passionnée digne de
+						<geogName>l'Italie</geogName> ou de <geogName>l'Espagne</geogName>…</said>
+			</div>
+			<div type="narrative">
+				<p>Elle vit bien que mon langage était empreint d’une ironie amère; et, alors, sans
+					avoir l’air d’y prendre garde, elle m’interrompit pour dire :</p>
+			</div>
+			<div type="dialogue">
+				<said>— Oh ! vous me faites à votre goût. Singulière tyrannie ! Vous voulez que je
+					ne sois pas moi.</said>
+				<said>— Oh ! je ne veux rien, <desc>m’écriai-je épouvanté de son attitude
+						sévère</desc>. Au moins est-il vrai que vous aimez à entendre raconter
+					l’histoire de ces passions énergiques enfantées dans nos cœurs par les
+					ravissantes femmes du Midi ?</said>
+				<said>— Oui. Hé <choice>
+						<orig>!</orig>
+					</choice> bien ?</said>
+				<said>— Hé <choice>
+						<orig>!</orig>
+					</choice> bien, j’irai <time>demain soir</time>
+					<placeName>chez vous</placeName> vers <time>neuf heures</time>, et je vous
+					révélerai ce mystère.</said>
+				<said>— Non, <desc>répondit-elle d’un air mutin</desc>, je veux l’apprendre
+					sur-le-champ.</said>
+				<said>— Vous ne m’avez pas encore <choice>
+						<orig>donné</orig>
+						<reg>donne</reg>
+					</choice> le droit de vous obéir quand vous dites : Je veux.</said>
+				<said>— En ce moment, <desc>répondit-elle avec une coquetterie désespérante</desc>,
+					j’ai le plus vif désir de connaître ce secret. <time>Demain</time>, je ne vous
+					écouterai peut-être pas…</said>
+			</div>
+			<div type="narrative">
+				<p>Elle sourit, et nous nous séparâmes; elle toujours aussi fière, aussi rude, et
+					moi toujours aussi ridicule en ce moment que toujours. Elle eut l’audace de
+					valser avec un jeune aide<choice>
+						<orig>-</orig>
+						<reg> </reg>
+					</choice>de<choice>
+						<orig>-</orig>
+						<reg> </reg>
+					</choice>camp, et je restai tour à tour fâché, boudeur, admirant, aimant,
+					jaloux.</p>
+			</div>
+			<div type="dialogue">
+				<said>— À <time>demain</time><choice>
+						<reg> </reg>
+					</choice>, <desc>me dit-elle vers deux heures du matin</desc>, quand elle sortit
+					du bal.</said>
+				<said>— Je n’irai pas, <desc>pensais-je</desc>, et je t’abandonne. Tu es plus
+					capricieuse, plus fantasque mille fois peut-être… que mon imagination.</said>
+			</div>
+			<div type="narrative">
+				<p><time>Le lendemain</time>, nous étions devant un bon feu, dans <placeName>un
+						petit salon élégant</placeName>, assis tous deux; elle sur une causeuse;
+					moi, sur des coussins, presque à ses pieds, et mon œil sous le sien.
+						<placeName>La rue</placeName> était silencieuse. La lampe jetait une clarté
+					douce. C’était une de ces soirées délicieuses à l’âme, un de ces moments qui ne
+					s’oublient jamais, une de ces heures passées dans la paix et le désir, et dont,
+					plus tard, le charme est toujours un sujet de regret, même quand nous nous
+					trouvons plus heureux. Qui peut effacer la vive empreinte des premières
+					sollicitations de l’amour ?</p>
+			</div>
+			<div type="dialogue">
+				<said>— Allons, <desc>dit-elle</desc>, j’écoute.</said>
+				<said>— Mais je n’ose commencer. L’aventure a des passages dangereux pour le
+					narrateur. Si je m’enthousiasme, vous me ferez taire.</said>
+				<said>— Parlez.</said>
+				<said>— J’obéis.</said>
+			</div>
+<div type="Sarrasine_story">
+<div type="narrative">				<p><choice>
+						<orig>« </orig>
+						<reg>— </reg>
+					</choice><persName type="character" key="Sarrasine">Ernest-Jean Sarrasine</persName> était le
+					seul fils d’un procureur de la <geogName>Franche-Comté</geogName>,
+						<desc>repris-je après une pause</desc>. Son père avait assez loyalement
+					gagné six à huit mille livres de rente, fortune de praticien qui, jadis, en
+					province, passait pour colossale. 
+	<persName>Le vieux maître Sarrasine</persName>, n’ayant qu’un enfant, ne voulut rien négliger pour son
+					éducation, il espérait en faire un magistrat, et vivre assez longtemps pour
+					voir, dans ses vieux jours,<persName type="character" key="Sarrasine">le petit-fils de Matthieu Sarrasine</persName>,
+	laboureur <placeName>au pays de Saint-Dié</placeName>,
+					s’asseoir sur les <choice>
+						<orig>lis</orig>
+						<reg>lys</reg>
+					</choice> et dormir à l’audience pour la plus grande gloire du Parlement; mais
+					le ciel ne réservait pas cette joie au procureur.
+					<persName type="character" key="Sarrasine">Le jeune Sarrasine</persName>,
+					confié de bonne heure aux Jésuites,
+					donna les preuves d’une turbulence peu commune. Il eut l’enfance d’un homme de
+					talent. Il ne voulait étudier qu’à sa guise, se révoltait souvent, et restait
+					parfois <time>des heures entières</time> plongé dans de confuses méditations,
+					occupé, tantôt à contempler ses camarades quand ils jouaient, tantôt à se
+					représenter les héros d’<persName type="person">Homère</persName>. Puis, s’il
+					lui arrivait de se divertir, il mettait une ardeur extraordinaire dans ses jeux.
+					Lorsqu’une lutte s’élevait entre un camarade et lui, rarement le combat
+					finissait sans qu’il y eût du sang répandu. S’il était le plus faible, il
+					mordait. Tour à tour agissant <choice>
+						<orig>ou</orig>
+						<reg>on</reg>
+					</choice> passif, sans aptitude ou trop intelligent, son caractère bizarre le
+					fit redouter de ses maîtres autant que de ses camarades. Au lieu d’apprendre les
+					éléments de la langue grecque, il dessinait le révérend père qui leur expliquait
+					un passage de <persName type="person">Thucydide</persName>, croquait le maître
+					de mathématiques, le préfet, les valets, le correcteur, et barbouillait tous les
+					murs d’esquisses informes. Au lieu de chanter les louanges du Seigneur à
+						<placeName>l’église</placeName>, il s’amusait, pendant les offices, à
+					déchiqueter un banc; ou quand il avait volé quelque morceau de bois, il
+					sculptait quelque figure de sainte. Si le bois, la pierre ou le crayon lui
+					manquaient, il rendait ses idées avec de la mie de pain. Soit qu’il copiât les
+					personnages des tableaux qui garnissaient le chœur, soit qu’il improvisât, il
+					laissait toujours à sa place de grossières ébauches, dont le caractère
+					licencieux désespérait les plus jeunes pères; et les médisants prétendaient que
+					les vieux jésuites en souriaient. Enfin, s’il faut en croire la chronique du <choice>
+						<orig>collége</orig>
+						<reg>collège</reg>
+					</choice>, il fut chassé, pour avoir, en attendant son tour au confessionnal,
+						<date>un vendredi saint</date>, sculpté une grosse bûche en forme de
+						<persName type="divinity">Christ</persName>. L’impiété gravée sur cette
+					statue était trop forte pour ne pas attirer un châtiment à l’artiste. N’avait-il
+					pas eu l’audace de placer sur le haut du tabernacle cette figure passablement
+					cynique ! <persName type="character" key="Sarrasine">Sarrasine</persName> vint chercher à
+						<geogName>Paris</geogName> un refuge contre les menaces de la malédiction
+					paternelle. Ayant une de ces volontés fortes qui ne connaissent pas d’obstacles,
+					il obéit aux ordres de son génie et entra dans <placeName>l’atelier</placeName>
+					de <persName type="person">Bouchardon</persName>. Il travaillait pendant
+						<time>toute la journée</time>, et, <time>le soir</time>, allait mendier sa
+					subsistance. <persName type="character">Bouchardon</persName>, émerveillé des
+	progrès et de l’intelligence <persName type="character" key="Sarrasine">du jeune artiste</persName>, devina bientôt la misère dans
+	laquelle se trouvait<persName type="character" key="Sarrasine">son élève</persName>; il le secourut, le prit en affection, et le
+	traita comme<persName type="character" key="Sarrasine">son enfant</persName>. Puis, lorsque le génie de <persName type="character"
+						>Sarrasine</persName> se fut dévoilé par une de ces œuvres où le talent à
+					venir lutte contre l’effervescence de la jeunesse, le généreux <persName
+						type="person">Bouchardon</persName> essaya de le remettre dans les bonnes
+					grâces du vieux procureur. Devant l’autorité du sculpteur célèbre le courroux
+					paternel s’apaisa. <placeName>Besançon</placeName> tout entier se félicita
+	d’avoir donné le jour à<persName type="character" key="Sarrasine">un grand homme futur</persName>. Dans le premier moment d’extase où
+					le plongea sa vanité flattée, le praticien avare mit son fils en état de
+					paraître avec avantage dans le monde. Les longues et laborieuses études exigées
+					par la sculpture domptèrent pendant <time>long<choice>
+							<orig>-</orig>
+						</choice>temps</time> le caractère impétueux et le génie sauvage de
+						<persName type="character">Sarrasine</persName>. <persName type="person"
+						>Bouchardon</persName>, prévoyant la violence avec laquelle les passions se
+					déchaîneraient dans cette jeune âme, peut-être aussi vigoureusement trempée que
+					celle de <persName type="person">Michel-Ange</persName>, en étouffa l’énergie
+					sous des travaux continus. Il réussit à maintenir dans de justes bornes la
+					fougue extraordinaire de <persName type="character" key="Sarrasine">Sarrasine</persName>, en lui
+					défendant de travailler, en lui proposant des distractions quand il le voyait
+					emporté par la furie de quelque pensée, ou en lui confiant d’importants travaux
+					au moment où il était prêt à se livrer à la dissipation. Mais, auprès de cette
+					âme passionnée, la douceur fut toujours la plus puissante de toutes les armes,
+					et le maître ne prit un grand empire sur son élève qu’en en excitant la
+					reconnaissance par une bonté paternelle <choice>
+						<orig>« </orig>
+						<reg/>
+					</choice>À l’âge de vingt-deux ans, <persName type="character" key="Sarrasine">Sarrasine</persName>
+					fut forcément soustrait à la salutaire influence que
+						<persName type="person">Bouchardon</persName> exerçait sur ses mœurs et <choice>
+						<orig>sur </orig>
+					</choice>ses habitudes. Il porta les peines de son génie en gagnant le prix de
+					sculpture fondé par <persName type="person">le marquis de Marigny</persName>, le
+					frère de <persName type="person">madame de Pompadour</persName>, qui fit tant
+					pour les Arts. <persName type="person">Diderot</persName> vanta comme un
+	chef-d’œuvre la statue de<persName type="character" key="Sarrasine">l’élève de Bouchardon</persName>. Ce ne fut pas sans une profonde douleur que le
+					sculpteur du <choice>
+						<orig>roi</orig>
+						<reg>Roi</reg>
+					</choice> vit partir pour <geogName>l’Italie</geogName> un jeune homme dont, par
+					principe, il avait entretenu l’ignorance profonde sur les choses de la vie.
+						<persName type="character">Sarrasine</persName> était depuis <time>six
+							ans</time><persName type="person" key="Sarrasine">le commensal de Bouchardon</persName>.
+	<persName type="person" key="Sarrasine">Fanatique de son art</persName> comme <persName type="person" key="Sarrasine">Canova</persName> le fut
+					depuis, il se levait <time>au jour</time>, entrait dans l’atelier pour n’en
+					sortir qu’à <time>la nuit</time>, et ne vivait qu’avec sa muse. S’il allait à
+						<placeName>la Comédie-Française</placeName>, il y était entraîné par son
+					maître. Il se sentait si gêné <placeName>chez <persName type="person">madame
+							Geoffrin</persName></placeName> et dans le grand monde où <persName
+						type="person">Bouchardon</persName> essaya de l’introduire, qu’il préféra
+					rester seul, et répudia les plaisirs de cette époque licencieuse. Il n’eut pas
+					d’autre maîtresse que la Sculpture et <persName type="character"
+						>Clotilde</persName>, l’une des célébrités de
+					<placeName>l’Opéra</placeName>. Encore cette intrigue ne dura-t-elle pas.
+						<persName type="character">Sarrasine</persName> était assez laid, toujours
+					mal mis, et de sa nature si libre, si peu régulier dans sa vie privée, que
+					l’illustre nymphe, redoutant quelque catastrophe, rendit bientôt le sculpteur à
+					l’amour des Arts. <persName type="person">Sophie Arnould</persName> a dit je ne
+					sais quel bon mot à ce sujet. Elle s’étonna, je crois, que sa camarade eût pu
+					l’emporter sur des statues. <persName type="character">Sarrasine</persName>
+					partit pour <geogName>l’Italie</geogName> en <date>1758</date>. Pendant le
+					voyage, son imagination ardente s’enflamma sous un ciel de cuivre et à l’aspect
+					des monuments merveilleux dont est semée la patrie des Arts. Il admira les
+					statues, les fresques, les tableaux; et, plein d’émulation, il vint à
+						<placeName>Rome</placeName>, en proie au désir d’inscrire son nom entre les
+					noms de <persName type="person">Michel-Ange</persName> et de <persName
+						type="person">monsieur Bouchardon</persName>. Aussi, pendant <time>les
+						premiers jours</time>, partagea-t-il son temps entre ses travaux d’atelier
+					et l’examen des œuvres d’art qui abondent à <placeName>Rome</placeName>. Il
+					avait déjà passé <time>quinze jours</time> dans l’état d’extase qui saisit
+					toutes les jeunes imaginations à l’aspect de la reine des ruines, quand,
+						<time>un soir</time>, il entra au <placeName>théâtre
+					d’Argentina</placeName>, devant lequel se pressait une grande foule. Il s’enquit
+					des causes de cette affluence, et le monde répondit par deux noms :</p></div>
+				<div type="dialogue">
+					<said>— <persName type="character" key="Zambinella">Zambinella</persName> ! <persName
+							type="character">Jomelli</persName> !</said>
+				</div>
+				<div type="narrative">
+					<p><choice>
+							<orig>« </orig>
+							<reg> </reg>
+						</choice>Il entre et s’assied <placeName>au parterre</placeName>, pressé par
+						deux abbati notablement gros; mais il était assez heureusement placé
+							<placeName>près de la scène</placeName>. La toile se leva. Pour la
+						première fois de sa vie il entendit cette musique dont <persName
+							type="person">monsieur Jean-Jacques Rousseau</persName> lui avait si
+						éloquemment vanté les délices, pendant une soirée du <persName type="person"
+							>baron d’Holbach</persName>. Les sens<persName type="person" key="Sarrasine">du jeune sculpteur</persName>furent, pour
+						ainsi dire, lubrifiés par les accents de la sublime harmonie de <persName
+							type="character">Jomelli</persName>. Les langoureuses originalités de
+						ces voix italiennes habilement mariées le plongèrent dans une ravissante
+						extase. Il resta muet, immobile, ne se sentant pas même foulé par deux
+						prêtres. Son âme passa dans ses oreilles et dans ses yeux. Il crut écouter
+						par chacun de ses pores. Tout à coup des applaudissements à faire crouler la
+						salle accueillirent l’entrée en scène de<persName type="character" key="Zambinella">la prima donna</persName>. Elle s’avança par
+						coquetterie sur <placeName>le devant du théâtre</placeName>, et salua le
+						public avec une grâce infinie. Les lumières, l’enthousiasme de tout un
+						peuple, l’illusion de la scène, les prestiges d’une toilette qui, à cette
+						époque, était assez engageante, conspirèrent en faveur de<persName type="character" key="Zambinella">cette femme</persName>.
+							<persName type="character" key="Sarrasine">Sarrasine</persName> poussa des cris de
+						plaisir. Il admirait en ce moment<persName type="character" key="Zambinella">la beauté idéale</persName> de laquelle il avait
+						jusqu’alors cherché çà et là les perfections dans la nature, en demandant à
+						un modèle, souvent ignoble, les rondeurs d’une jambe accomplie; à tel autre<choice>
+							<orig>,</orig>
+						</choice> les contours du sein; à celui-là, ses blanches épaules; prenant
+						enfin le cou d’une jeune fille, et les mains de cette femme, et les genoux
+						polis <choice>
+							<orig>de</orig>
+							<reg>et </reg>
+						</choice>cet enfant, sans rencontrer jamais sous le ciel froid de
+							<placeName>Paris</placeName> les riches et suaves créations de
+						la<geogName>Grèce antique</geogName>. <persName type="character" key="Zambinella">la Zambinella</persName> 
+						lui montrait réunies, bien vivantes et délicates,
+						ces exquises proportions de la nature féminine si ardemment désirées,
+						desquelles un sculpteur est, tout à la fois, le juge le plus sévère et le
+						plus passionné. C’était une bouche expressive, des yeux d’amour, un teint
+						d’une blancheur éblouissante. Et joignez à ces détails, qui eussent ravi un
+						peintre, toutes les merveilles des <persName type="divinity"
+							>Vénus</persName> révérées et rendues par <name>le ciseau des
+								Grecs</name>.<persName type="person" key="Sarrasine">L’artiste</persName> 
+						ne se lassait pas d’admirer<persName type="character" key="Zambinella">la grâce inimitable</persName>
+						avec laquelle les bras étaient attachés au buste, la rondeur prestigieuse du
+						cou, les lignes harmonieusement décrites par les sourcils, par le nez, puis
+						l’ovale parfait du visage, la pureté de ses contours vifs, et l’effet de
+						cils fournis, recourbés qui terminaient de larges et voluptueuses paupières.
+						C’était<persName type="character" key="Zambinella">plus qu’une femme</persName>, c’était
+							<persName type="character" key="Zambinella">un chef-d’œuvre</persName>! Il se trouvait dans
+						cette création inespérée<choice>
+							<orig>,</orig>
+						</choice> de l’amour à ravir tous les hommes, et des beautés dignes de
+						satisfaire un critique. <persName type="character">Sarrasine</persName>
+							dévorait des yeux la statue de 
+						<persName type="character" key="Zambinella">Pygmalion</persName>, pour lui descendue de son piédestal. Quand
+							<persName type="character" key="Zambinella">la Zambinella</persName> chanta, ce fut un
+						délire. L’artiste eut froid; puis, il sentit un foyer qui pétilla soudain
+						dans les profondeurs de son être intime, de ce que nous nommons le cœur,
+						faute de mot ! Il n’applaudit pas, il ne dit rien, il éprouvait un mouvement
+						de folie, espèce de frénésie qui ne nous agite qu’à cet âge <choice>
+							<orig>où</orig>
+							<reg>ou</reg>
+						</choice> le désir a je ne sais quoi de terrible et d’infernal. 
+						<persName type="character" key="Sarrasine">Sarrasine</persName> voulait s’élancer sur le théâtre
+						et s’emparer de<persName type="character" key="Zambinella">cette femme</persName>. Sa force, centuplée par une dépression morale
+						impossible à expliquer, puisque ces phénomènes se passent dans une sphère
+						inaccessible à l’observation humaine, tendait à se projeter avec une
+						violence douloureuse. <choice>
+							<orig>A</orig>
+							<reg>À</reg>
+						</choice> le voir, on eût dit d’<persName type="character" key="Sarrasine">un homme froid et stupide</persName>. Gloire, science,
+						avenir, existence, couronnes, tout s’écroula.</p>
+
+					<p>— Être <choice>
+							<orig>aimé</orig>
+							<reg>aime</reg>
+						</choice> d’elle, ou mourir<choice>
+							<reg> </reg>
+						</choice>, tel fut l’arrêt que <persName type="character"
+							>Sarrasine</persName> porta sur lui-même.</p>
+					<p><choice>
+							<orig>« </orig>
+							<reg> </reg>
+						</choice>Il était si <choice>
+							<orig>complétement</orig>
+							<reg>complètement</reg>
+						</choice> ivre qu’il ne voyait plus ni salle, ni spectateurs, ni acteurs,
+						n’entendait plus de musique. Bien mieux, il n’existait pas de distance entre
+						lui et <persName type="character" key="Zambinella">la Zambinella</persName>, il la possédait,
+						ses yeux, attachés sur elle, s’emparaient d’elle. Une puissance presque
+						diabolique lui permettait de sentir le vent de cette voix, de respirer la
+						poudre embaumée dont ces cheveux étaient imprégnés, de voir les méplats de
+						ce visage, d’y compter les veines bleues qui en nuançaient la peau satinée.
+						Enfin cette voix agile, fraîche et d’un timbre argenté, souple comme un fil
+						auquel le moindre souffle d’air donne une forme, qu’il roule et déroule,
+						développe et disperse, cette voix attaquait si vivement son âme qu’il laissa
+						plus d’une fois échapper de ces cris involontaires arrachés par les délices
+						convulsives trop rarement données par les passions humaines. Bientôt il fut
+						obligé de quitter <placeName>le théâtre</placeName>. Ses jambes tremblantes
+						refusaient presque de le soutenir. Il était abattu, faible comme
+						<persName type="character" key="Sarrasine">un homme nerveux</persName> qui 
+						s’est livré à quelque effroyable colère. Il avait eu tant de
+						plaisir, ou peut-être avait-il tant souffert, que sa vie s’était écoulée
+						comme l’eau d’un vase renversé par un choc. Il sentait en lui un vide, un
+						anéantissement semblable à ces atonies qui désespèrent les convalescents au
+						sortir d’une forte maladie. Envahi par une tristesse inexplicable, il alla
+						s’asseoir sur les marches d’<placeName>une église</placeName>. Là, le dos
+						appuyé contre une colonne, il se perdit dans une méditation confuse comme un
+						rêve. La passion l’avait foudroyé. De retour <placeName>au
+						logis</placeName>, il tomba dans un de ces paroxysmes d’activité qui nous
+						révèlent la présence de principes nouveaux dans notre existence. En proie à
+						cette première fièvre d’amour qui tient autant au plaisir qu’à la douleur,
+						il voulut tromper son impatience et son délire en dessinant 
+						<persName type="character" key="Zambinella">la Zambinella</persName> de mémoire. Ce fut une sorte
+						de méditation matérielle. Sur telle feuille, <persName type="character">la
+							Zambinella</persName> se trouvait dans cette attitude, calme et froide
+						en apparence, affectionnée par <persName type="person">Raphaël</persName>,
+						par <persName type="person">le Giorgion</persName> et par tous les grands
+						peintres. Sur telle autre, elle tournait la tête avec finesse en achevant
+						une roulade, et semblait s’écouter elle-même. <persName type="character"
+							>Sarrasine</persName> crayonna 
+						<persName type="character" key="Zambinella">sa maîtresse</persName> 
+						dans toutes les poses : il
+						la fit sans voile, assise, debout, couchée, ou chaste ou amoureuse, en
+						réalisant, grâce au délire de ses crayons, toutes les idées capricieuses qui
+						sollicitent notre imagination quand nous pensons fortement à une maîtresse.
+						Mais sa pensée furieuse alla plus loin que le dessin. Il voyait 
+						<persName type="character">la Zambinella</persName>, lui parlait, la suppliait,
+						épuisait <time>mille années</time> de vie et de bonheur avec elle, en la
+						plaçant dans toutes les situations imaginables, en essayant, pour ainsi
+						dire, l’avenir avec elle. <time>Le lendemain</time>, il envoya son laquais
+						louer, pour toute la saison, <placeName>une loge voisine de la
+							scène</placeName>. Puis, comme tous les jeunes gens dont l’âme est
+						puissante, il s’exagéra les difficultés de son entreprise, et donna, pour
+						première pâture à sa passion, le bonheur de pouvoir admirer
+						<persName type="character" key="Zambinella">sa maîtresse</persName>
+						sans obstacles. Cet âge d’or de l’amour, pendant lequel nous jouissons de
+						notre propre sentiment et où nous nous trouvons heureux presque par
+						nous-mêmes, ne devait pas durer long<choice>
+							<orig>-</orig>
+						</choice>temps chez <persName type="character">Sarrasine</persName>.
+						Cependant les événements le surprirent quand il était encore sous le charme
+						de cette printanière hallucination, aussi naïve que voluptueuse. Pendant
+							<time>une huitaine de jours</time>, il vécut toute une vie, occupé
+							<time>le matin</time> à pétrir la glaise à l’aide de laquelle il
+						réussissait à copier <persName type="character">la Zambinella</persName>,
+						malgré les voiles, les jupes, les corsets et les nœuds de rubans qui la lui
+						dérobaient. <time>Le soir</time>, installé de <time>bonne heure</time> dans
+							<placeName>sa loge</placeName>, seul, couché sur un sofa, il se faisait,
+						semblable à un Turc enivré d’opium, un bonheur aussi fécond, aussi prodigue
+						qu’il le souhaitait. D’abord il se familiarisa graduellement avec les
+						émotions trop vives que lui donnait le chant de sa maîtresse; puis il
+						apprivoisa ses yeux à la voir, et finit par la contempler sans redouter
+						l’explosion de la sourde rage par laquelle il avait été animé <time>le
+							premier jour</time>. Sa passion devint plus profonde en devenant plus
+						tranquille. Du reste,<persName type="character" key="Sarrasine">le farouche sculpteur</persName> ne souffrait pas que sa
+						solitude, peuplée d’images, parée des fantaisies de l’espérance et pleine de
+						bonheur, fût troublée par ses camarades. Il aimait avec tant de force et si
+						naïvement qu’il eut à subir les innocents scrupules dont nous sommes
+						assaillis quand nous aimons pour la première fois. En commençant à entrevoir
+						qu’il faudrait bientôt agir, s’intriguer, demander <choice>
+							<orig>où</orig>
+							<reg>ou</reg>
+						</choice> demeurait <persName type="character">la Zambinella</persName>,
+						savoir si elle avait une mère, un oncle, un tuteur, une famille; en songeant
+						enfin aux moyens de la voir, de lui parler, il sentait son cœur se gonfler
+						si fort à des idées si ambitieuses, qu’il remettait ces soins <time>au
+							lendemain</time>, heureux de ses souffrances physiques autant que de ses
+						plaisirs intellectuels.</p>
+				</div></div>
+			<div type="dialogue">
+				<said>— Mais, <desc>me dit <persName type="character">madame de Rochefide</persName>
+						en m’interrompant</desc>, je ne vois encore ni 
+					<persName type="character" key="Marianina">Marianina</persName> ni son petit vieillard.</said>
+				<said>— Vous ne voyez que lui, <desc>m’écriai-je impatienté comme un auteur auquel
+						on fait manquer l’effet d’un coup de théâtre</desc>.</said>
+				<said><choice>
+						<orig>«</orig>
+						<reg/>
+					</choice></said></div>
+<div type="Sarrasine_story">
+<div type="narrative"><p>Depuis <time>quelques jours,</time>
+					<desc>repris-je après une pause,</desc>
+				<persName type="character">Sarrasine</persName> était si fidèlement venu
+					s’installer dans sa <placeName>loge,</placeName> et ses regards exprimaient tant
+					d’amour, que sa passion pour la voix de <persName type="character"
+						>Zambinella</persName> aurait été la nouvelle de tout
+						<placeName>Paris</placeName>, si cette aventure s’y fût passée; mais en
+						<geogName>Italie</geogName>, madame, au spectacle, chacun y assiste pour son
+					compte, avec ses passions, avec un intérêt de cœur qui exclut l’espionnage des
+					lorgnettes. Cependant la frénésie du sculpteur ne devait pas échapper long<choice>
+						<orig>-</orig>
+					</choice>temps aux regards des chanteurs et des cantatrices. <time>Un
+						soir,</time> le Français s’aperçut qu’on riait de lui dans les
+						<placeName>coulisses.</placeName> Il <choice>
+						<orig>eût</orig>
+						<reg>eut</reg>
+					</choice> été difficile de savoir à quelles extrémités il se serait porté, si
+						<persName type="character">la Zambinella</persName> n’était pas entrée en
+					scène. Elle jeta sur <persName type="character">Sarrasine</persName> un des
+					coups d’œil éloquents qui disent souvent beaucoup plus de choses que les femmes
+					ne le veulent. Ce regard fut toute une révélation. <persName type="character"
+						>Sarrasine</persName> était aimé !</p>
+				<div type="dialogue">
+					<said>— Si ce n’est qu’un caprice,<desc>pensa-t-il en accusant déjà sa maîtresse
+							de trop d’ardeur,</desc> elle ne connaît pas la domination sous laquelle
+						elle va tomber. Son caprice durera, j’espère, autant que ma vie.</said>
+				</div>
+				<div type="narrative">
+					<p> En ce moment, trois coups légèrement frappés à la porte de sa
+						<placeName>loge</placeName> excitèrent l’attention de
+						<persName type="character" key="Sarrasine">l’artiste</persName>. Il
+						ouvrit. Une vieille femme entra mystérieusement.</p>
+				</div>
+				<div type="dialogue">
+					<said>— <persName type="character" key="Sarrasine">Jeune homme</persName>, 
+						<desc>dit-elle,</desc> si vous voulez être heureux, ayez de
+						la prudence, enveloppez-vous d’une cape, abaissez sur vos yeux un grand
+						chapeau; puis, vers <time>dix heures du soir</time>, trouvez-vous dans
+							<placeName>la rue du Corso</placeName>, devant <placeName>l’hôtel
+							d’Espagne.</placeName></said>
+					<said>— J’y serai, <desc>répondit-il en mettant deux louis dans la main ridée de
+							la duègne.</desc></said>
+				</div>
+				<div type="narrative">
+					<p>Il s’échappa de sa <placeName>loge</placeName>, après avoir fait un signe
+						d’intelligence à <persName type="character">la Zambinella</persName>, qui
+						baissa timidement ses voluptueuses paupières comme
+						<persName type="character" key="Zambinella">une femme heureuse</persName> d’être
+						enfin comprise. Puis il courut <placeName>chez lui</placeName>, afin
+						d’emprunter à la toilette toutes les séductions qu’elle pourrait lui prêter.
+						En sortant du <placeName>théâtre</placeName>, un inconnu l’arrêta par le
+						bras.</p>
+				</div>
+				<div type="dialogue">
+					<said>— Prenez garde à vous,<persName type="character" key="Sarrasine">seigneur <choice>
+							<orig>Français</orig>
+						<reg>français</reg>
+					</choice></persName>, <desc>lui dit-il à l’oreille.</desc> Il s’agit de vie et de mort.
+							<persName type="character">Le cardinal Cicognara</persName> est son
+						protecteur, et ne badine pas.</said>
+				</div>
+				<div type="narrative">
+					<p>Quand un démon aurait mis entre <persName type="character"
+							>Sarrasine</persName> et <persName type="character"><choice>
+								<orig>la </orig>
+							</choice>Zambinella</persName> les profondeurs de l’enfer, en ce moment
+						il eût tout traversé d’une enjambée. Semblable aux chevaux des immortels
+						peints par <persName type="person">Homère</persName>, l’amour du sculpteur
+						avait franchi en un clin d’œil d’immenses espaces.</p>
+				</div>
+				<div type="dialogue">
+					<said>— La mort dût-elle m’attendre au sortir de la
+							<placeName>maison,</placeName> j’irais encore plus vite,
+							<desc>répondit-il.</desc></said>
+					<said>— Poverino !<desc> s’écria l’inconnu en disparaissant.</desc> Parlner de
+						danger à un amoureux, n’est-ce pas lui vendre des plaisirs ? </said>
+				</div>
+				<div type="narrative">
+					<p>Jamais le laquais de <persName type="character">Sarrasine</persName> n’avait
+						vu <persName type="character" key="Sarrasine">son maître</persName> si minutieux en fait de toilette. Sa plus belle épée, présent
+						de <persName type="person">Bouchardon</persName>, le nœud que <persName
+							type="character">Clotilde</persName> lui avait donné, son habit
+						pailleté, son gilet de drap d’argent, sa tabatière d’or, ses montres
+						précieuses, tout fut tiré des coffres, et il se para comme une jeune fille
+						qui doit se promener devant son premier amant. <time>À l’heure dite,</time>
+						ivre d’amour et bouillant d’espérance, <persName type="character"
+							>Sarrasine,</persName> le nez dans son manteau, courut au rendez-vous
+						donné par la vieille. La duègne attendait.</p>
+				</div>
+				<div type="dialogue">
+					<said>— Vous avez bien tardé ! <desc>lui dit-elle.</desc> Venez.</said>
+				</div>
+				<div type="narrative">
+					<p>Elle entraîna<persName type="character" key="Sarrasine">le Français</persName>
+						dans plusieurs petites <placeName>rues</placeName>,
+						et s’arrêta devant <placeName>un palais</placeName> d’assez belle apparence.
+						Elle frappa. La porte s’ouvrit. Elle conduisit <persName type="character"
+							>Sarrasine</persName> à travers un labyrinthe d’escaliers, de galeries
+						et d’appartements qui n’étaient éclairés que par les lueurs incertaines de
+						la lune, et arriva bientôt à une porte, entre les fentes de laquelle
+						s’échappaient de vives lumières, d’où partaient de joyeux éclats de
+						plusieurs voix. Tout à coup <persName type="character">Sarrasine</persName>
+						fut ébloui, quand, sur un mot de la vieille, il fut admis dans ce mystérieux
+							<placeName>appartement,</placeName> et se trouva dans <placeName>un
+							salon</placeName> aussi brillamment éclairé que somptueusement meublé,
+						au milieu duquel s’élevait une table bien servie, chargée de sacro-saintes
+						bouteilles, de riants flacons dont les facettes rougies étincelaient. Il
+						reconnut les chanteurs et les cantatrices du <placeName>théâtre</placeName>,
+						mêlés à des femmes charmantes, tous prêts à commencer une orgie d’artistes
+						qui n’attendait plus que lui. <persName type="character"
+							>Sarrasine</persName> réprima un mouvement de dépit, et fit bonne
+						contenance. Il avait espéré une <placeName>chambre</placeName> mal éclairée,
+						sa maîtresse auprès d’un brasier, un jaloux à deux pas, la mort et l’amour,
+						des confidences échangées à voix basse, cœur à cœur, des baisers périlleux,
+						et les visages si voisins, que les cheveux de <persName type="character">la
+							Zambinella</persName> eussent caressé son front chargé de désirs,
+						brûlant de bonheur.</p>
+				</div>
+				<div type="dialogue">
+					<said>— Vive la folie ! <desc>s’écria-t-il.</desc> Signori <choice>
+							<orig>e</orig>
+							<reg>et</reg>
+						</choice> belle donne, vous me permettrez de prendre plus tard ma revanche,
+						et de vous témoigner ma reconnaissance pour la manière dont vous accueillez
+						<persName type="character" key="Sarrasine">un pauvre sculpteur</persName>.</said>
+				</div>
+				<div type="narrative">
+					<p>Après avoir reçu les compliments assez affectueux de la plupart des personnes
+						présentes, qu’il connaissait de vue, il tâcha de s’approcher de la bergère
+						sur laquelle <persName type="character"><choice>
+								<orig>la </orig>
+							</choice>Zambinella</persName> était nonchalamment étendue. Oh ! comme
+						son cœur battit quand il aperçut un pied mignon, chaussé de ces mules qui,
+						permettez-moi de le dire, madame, donnaient jadis au pied des femmes une
+						expression si coquette, si voluptueuse, que je ne sais pas comment les
+						hommes y pouvaient résister. Les bas blancs bien <choice>
+							<orig>tirés</orig>
+							<reg>tires</reg>
+						</choice> et à coins verts, les jupes courtes, les mules pointues et à
+						talons hauts du règne de <persName type="person">Louis XV</persName> ont
+						peut-être un peu contribué à démoraliser <geogName>l’Europe</geogName> et le
+						clergé.</p>
+				</div>
+			</div></div>
+			<div type="dialogue">
+				<said>— Un peu ! <desc>dit la marquise.</desc> Vous n’avez donc rien lu ?</said>
+			</div>
+
+			<div type="past">
+				<div type="dialogue">
+					<said> — <persName type="character">La Zambinella</persName>, <desc>repris-je en
+							souriant,</desc></said>
+				</div>
+				<div type="narrative">
+					<p> s’était effrontément croisé les jambes, et agitait en badinant celle qui se
+						trouvait dessus, attitude de duchesse, qui allait bien à son genre de beauté
+						capricieuse et pleine d’une certaine mollesse engageante. Elle avait quitté
+						ses habits de théâtre, et portait un corps qui dessinait une taille svelte
+						et que faisaient valoir des paniers et une robe de satin brodée de fleurs
+						bleues. Sa poitrine, dont une dentelle dissimulait les trésors par un luxe
+						de coquetterie, étincelait de blancheur. Coiffée à peu près comme se
+						coiffait madame du Barry, sa figure, quoique surchargée d’un large bonnet,
+						n’en paraissait que plus mignonne, et la poudre lui seyait bien. La voir
+						ainsi, c’était l’adorer. Elle sourit gracieusement<persName type="character" key="Sarrasine">au sculpteur</persName>. 
+						<persName type="character">Sarrasine,</persName> tout mécontent de ne pouvoir lui
+						parler que devant témoins, s’assit poliment auprès d’elle, et l’entretint de
+						musique en la louant sur son prodigieux talent; mais sa voix tremblait
+						d’amour, de crainte et d’espérance.</p>
+				</div>
+				<div type="dialogue">
+					<said>— Que craignez-vous ? <desc>lui dit <persName type="character"
+								>Vitagliani,</persName> le chanteur le plus célèbre de la
+							troupe.</desc> Allez, vous n’avez pas un seul rival à craindre
+						ici.</said>
+				</div>
+				<div type="narrative">
+					<p>Après avoir parlé, <choice>
+							<orig>le Ténor</orig>
+							<reg>Le ténor</reg>
+						</choice> sourit silencieusement. Ce sourire se répéta sur les lèvres de
+						tous les convives, dont l’attention avait une certaine malice cachée dont ne
+						devait pas s’apercevoir un amoureux. Cette publicité fut comme un coup de
+						poignard que <persName type="character">Sarrasine</persName> aurait
+						soudainement reçu dans le cœur. Quoique doué d’une certaine force de
+						caractère, et bien qu’aucune circonstance ne dût influer sur son amour, il
+						n’avait peut-être pas encore songé que <persName type="character"
+							>Zambinella</persName> était presque
+						<persName type="character" key="Zambinella">une courtisane</persName>, et qu’il ne pouvait
+						pas avoir tout à la fois les jouissances pures qui rendent l’amour d’une
+						jeune fille chose si délicieuse, et les emportements fougueux par lesquels
+						une femme de théâtre fait acheter les trésors de sa passion. Il réfléchit et
+						se résigna. Le souper fut servi. <persName type="character"
+							>Sarrasine</persName> et <persName type="character">la
+							Zambinella</persName> se mirent sans cérémonie à côté l’un de l’autre.
+						Pendant <time>la moitié du festin </time>, les artistes gardèrent quelque
+						mesure, et<persName type="character" key="Sarrasine">le sculpteur</persName> put causer avec 
+						<persName type="character" key="Zambinella">la cantatrice</persName>. Il lui trouva de
+						l’esprit, de la finesse; mais elle était d’une ignorance surprenante, et se
+						montra faible et superstitieuse. La délicatesse de ses organes se
+						reproduisait dans son entendement. Quand <persName type="character"
+							>Vitagliani</persName> déboucha la première bouteille de vin de
+						Champagne, <persName type="character">Sarrasine</persName> lut dans les yeux
+						de <persName type="character" key="Zambinella">sa voisine</persName> une crainte assez vive
+						de la petite détonation produite par le
+						dégagement du gaz. Le tressaillement involontaire de cette organisation
+						féminine fut interprété par <persName type="character" key="Sarrasine">l’amoureux artiste</persName> comme l’indice d’une
+						excessive sensibilité. Cette faiblesse charma<persName type="character" key="Sarrasine">le Français</persName>. 
+						Il entre tant de
+						protection dans l’amour d’un homme !</p>
+				</div>
+				<div type="dialogue">
+					<said>— Vous disposerez de ma puissance comme d’un bouclier !</said>
+				</div>
+				<div type="narrative">
+					<p>Cette phrase n’est-elle pas écrite au fond de toutes les déclarations
+						d’amour ? <persName type="character">Sarrasine,</persName> trop passionné
+						pour débiter des galanteries à<persName type="character" key="Zambinella">la belle Italienne</persName>,
+						était, comme tous les amants, tour à tour grave, rieur ou recueilli. Quoiqu’il <choice>
+							<orig>parût</orig>
+							<reg>parut </reg>
+						</choice>écouter les convives, il n’entendait pas un mot de ce qu’ils
+						disaient, tant il s’adonnait au plaisir de se trouver près d’elle, de lui
+						effleurer la main, de la servir. Il nageait dans une joie secrète. Malgré
+						l’éloquence de quelques regards mutuels, il fut étonné de la réserve dans
+						laquelle <persName type="character">la Zambinella</persName> se tint avec
+						lui. Elle avait bien commencé la première à lui presser le pied et à
+						l’agacer avec la malice d’une femme libre et amoureuse; mais soudain elle
+						s’était enveloppée dans une modestie de jeune fille, après avoir entendu
+						raconter par <persName type="character">Sarrasine</persName> un trait qui
+						peignit l’excessive violence de son caractère. Quand <time>le souper devint
+							une orgie</time>, les convives se mirent à chanter, inspirés par le
+							<name>peralta</name> et le <name>pedro ximenès</name>. Ce furent des
+						duos ravissants, des airs de la <geogName>Calabre</geogName>, des
+							<name>seguidilles espagnoles,</name>
+						<name>des canzonettes napolitaines.</name> L’ivresse était dans tous les
+						yeux, dans la musique, dans les cœurs et dans les voix. Il déborda tout à
+						coup une vivacité enchanteresse, un abandon cordial, une bonhomie italienne
+						dont rien ne peut donner l’idée à ceux qui ne connaissent que les assemblées
+						de <placeName>Paris</placeName>, les raouts de
+							<placeName>Londres</placeName> ou les cercles de
+							<placeName>Vienne</placeName>. Les plaisanteries et les mots d’amour se
+						croisaient, comme des balles dans une bataille, à travers les rires, les
+						impiétés, les invocations à la <persName role="divinity">sainte
+							Vierge</persName> ou <persName role="divinity">al Bambino</persName>.
+						L’un se coucha sur un sofa, et se mit à dormir. Une jeune fille écoutait une
+						déclaration sans savoir qu’elle répandait du <name><choice>
+								<orig>xérès</orig>
+								<reg>vin de Xérès</reg>
+							</choice></name> sur la nappe. Au milieu de ce désordre, <persName
+							type="character">la Zambinella</persName>, comme frappée de terreur,
+						resta pensive. Elle refusa de boire, mangea peut-être un peu trop; mais la
+						gourmandise est, dit-on, une grâce chez les femmes. En admirant la pudeur de
+						sa maîtresse, <persName type="character">Sarrasine</persName> fit de
+						sérieuses réflexions pour l’avenir.</p>
+				</div>
+				<div type="dialogue">
+					<said>— Elle veut sans doute être épousée, <desc>se dit-il.</desc></said>
+				</div>
+				<div type="narrative">
+					<p>Alors il s’abandonna aux délices de ce mariage. Sa vie entière ne lui
+						semblait pas assez longue pour épuiser la source de bonheur qu’il trouvait
+						au fond de son âme. <persName type="character">Vitagliani,</persName> son
+						voisin, lui versa si souvent à boire que, vers les <time>trois heures du
+							matin,</time> sans être <choice>
+							<orig>complétement</orig>
+							<reg>complètement</reg>
+						</choice> ivre, <persName type="character">Sarrasine</persName> se trouva
+						sans force contre son délire. Dans un <choice>
+							<orig>moment</orig>
+							<reg>mouvement</reg>
+						</choice> de fougue, il emporta cette femme en se sauvant dans une espèce de
+							<placeName>boudoir</placeName> qui communiquait au
+							<placeName>salon</placeName>, et sur la porte duquel il avait plus d’une
+						fois tourné les yeux.<persName type="character" key="Zambinella">L’Italienne</persName> était armée d’un poignard.</p>
+				</div>
+				<div type="dialogue">
+					<said>— Si tu approches, <desc>dit-elle,</desc> je serai forcée de te plonger
+						cette arme dans le cœur. Va ! tu me mépriserais. J’ai conçu trop de respect
+						pour ton caractère pour me livrer ainsi. Je ne veux pas déchoir du sentiment
+						que tu m’accordes.</said>
+					<said>— Ah ! ah ! <desc>dit <persName type="character"
+							>Sarrasine,</persName></desc> c’est un mauvais moyen pour éteindre une
+						passion que de l’exciter. Es-tu donc déjà corrompue à ce point que, vieille
+						de cœur, tu agirais comme <persName type="character" key="Zambinella">une jeune courtisane</persName>,
+						qui aiguise les émotions
+						dont elle fait commerce ?</said>
+					<said>— Mais c’est aujourd’hui <time>vendredi</time>, <desc>répondit-elle
+							effrayée de la violence du Français.</desc></said>
+				</div>
+				<div type="narrative">
+					<p><persName type="character">Sarrasine,</persName> qui n’était pas dévot, se
+						prit à rire. <persName type="character">La Zambinella</persName> bondit
+						comme un jeune chevreuil et s’élança dans la <placeName>salle du
+							festin.</placeName> Quand <persName type="character"
+							>Sarrasine</persName> y apparut courant après elle, il fut accueilli par
+						un rire infernal. Il vit <persName type="character">la Zambinella</persName>
+						évanouie sur un sofa. Elle était pâle et comme épuisée par l’effort
+						extraordinaire qu’elle venait de faire. Quoique <persName type="character"
+							>Sarrasine</persName>
+						<choice>
+							<orig>sût</orig>
+							<reg>sut</reg>
+						</choice> peu d’italien, il entendit sa maîtresse disant à voix basse à
+							<persName type="character">Vitagliani</persName> :</p>
+				</div>
+				<div type="dialogue">
+					<said>— Mais il me tuera !</said>
+				</div>
+				<div type="narative">
+					<p>Cette scène étrange rendit le sculpteur tout confus. La raison lui revint. Il
+						resta d’abord immobile; puis il retrouva la parole, s’assit auprès de sa
+						maîtresse et protesta de son respect. Il trouva la force de donner le change
+						à sa passion en disant à cette femme les discours les plus exaltés; et, pour
+						peindre son amour, il déploya les trésors de cette éloquence magique,
+						officieux interprète que les femmes refusent rarement de croire. Au moment
+						où les <time>premières lueurs du matin</time> surprirent les convives, une
+						femme proposa d’aller à <placeName>Frascati.</placeName> Tous accueillirent
+						par de vives acclamations l’idée de passer la journée à <placeName>la villa
+							Ludovisi.</placeName>
+						<persName type="character">Vitagliani</persName> descendit pour louer des
+						voitures. <persName type="character">Sarrasine</persName> eut le bonheur de
+						conduire <persName type="character">la Zambinella</persName> dans un <choice>
+							<orig>phaéton</orig>
+							<reg>phaeton.</reg>
+						</choice> Une fois sortis de <placeName>Rome</placeName><choice>
+							<reg>,</reg>
+						</choice> la gaieté, un moment réprimée par les combats que chacun avait
+						livrés au sommeil, se réveilla soudain. Hommes et femmes, tous paraissaient
+						habitués à cette vie étrange, à ces plaisirs continus, à cet entraînement
+						d’artiste qui fait de la vie une fête perpétuelle où l’on rit sans
+						arrière-pensées. La compagne du sculpteur était la seule qui <choice>
+							<orig>parût</orig>
+							<reg>parut</reg>
+						</choice> abattue.</p>
+				</div>
+				<div type="dialogue">
+					<said>— Êtes-vous malade ? <desc>lui dit <persName type="character"
+								>Sarrasine.</persName></desc> Aimeriez-vous mieux rentrer chez
+						vous ?</said>
+					<said>— Je ne suis pas assez forte pour supporter tous ces excès,
+							<desc>répondit-elle.</desc> J’ai besoin de grands ménagements; mais,
+						près de vous, je me sens si bien ! Sans vous, je ne serais pas restée à ce
+						souper; une nuit passée me fait perdre toute ma fraîcheur.</said>
+					<said>— Vous êtes si délicate ! <desc>reprit <persName type="character"
+								>Sarrasine</persName> en contemplant les traits mignons de cette
+							charmante créature.</desc></said>
+					<said>— Les orgies m’abîment la voix.</said>
+					<said>— Maintenant que nous sommes seuls, <desc>s’écria l’artiste,</desc> et que
+						vous n’avez plus à craindre l’effervescence de ma passion, dites-moi que
+						vous m’aimez.</said>
+					<said>— Pourquoi ? <desc>répliqua-t-elle,</desc> à quoi bon ? Je vous ai semblé
+						jolie. Mais vous êtes <choice>
+							<orig>Français</orig>
+							<reg>français</reg>
+						</choice>, et votre sentiment passera. Oh ! vous ne m’aimeriez pas comme je
+						voudrais être aimée.</said>
+					<said>— Comment !</said>
+					<said>— Sans but de passion vulgaire, purement. J’abhorre les hommes encore plus
+						peut-être que je ne hais les femmes. J’ai besoin de me réfugier dans
+						l’amitié. Le monde est désert pour moi. Je suis 
+						<persName type="character" key="Zambinella">une créature maudite</persName>,
+						condamnée à comprendre le bonheur, à le sentir, à le désirer, et, comme tant
+						d’autres, forcée à le voir me fuir à toute heure. Souvenez-vous, 
+						<persName type="character" key="Sarrasine">seigneur</persName>,
+						que je ne vous aurai pas trompé. Je vous défends de m’aimer. Je puis être un
+						ami dévoué pour vous, car j’admire votre force et votre caractère. J’ai
+						besoin d’un frère, d’un protecteur. Soyez tout cela pour moi, mais rien de
+						plus.</said>
+					<said>— Ne pas vous aimer ! <desc>s’écria <persName type="character"
+						>Sarrasine</persName>;</desc> mais,
+						<persName type="character" key="Zambinella">chère ange</persName>, tu es ma vie, mon
+						bonheur !</said>
+					<said>— Si je disais un mot vous me repousseriez avec horreur.</said>
+					<said>— <persName type="character" key="Zambinella">Coquette</persName>! 
+						rien ne peut m’effrayer. Dis-moi que tu me coûteras l’avenir,
+						que dans deux mois je mourrai, que je serai damné pour t’avoir seulement
+						embrassée.</said>
+				</div>
+				<div type="narrative">
+					<p>Il l’embrassa malgré les efforts que fit <persName type="character">la
+							Zambinella</persName> pour se soustraire à ce baiser passionné.</p>
+				</div>
+				<div type="narrative">
+					<said>— Dis-moi que tu es un démon, qu’il te faut ma fortune, mon nom, toute ma
+						célébrité ! Veux-tu que je ne sois pas sculpteur ? Parle.</said>
+					<said>— Si je n’étais pas une femme ? <desc>demanda timidement <persName
+								type="character">la Zambinella</persName> d’une voix argentine et
+							douce.</desc></said>
+					<said>— La bonne plaisanterie ! <desc>s’écria <persName type="character"
+								>Sarrasine.</persName></desc> Crois-tu pouvoir tromper l’œil d’un
+						artiste ? N’ai-je pas, depuis <time>dix jours</time>, dévoré, scruté, admiré
+						tes perfections ? Une femme seule peut avoir ce bras rond et <choice>
+							<orig>moëlleux</orig>
+							<reg>moelleux</reg>
+						</choice>, ces contours élégants. Ah ! tu veux des compliments !</said>
+				</div>
+				<div type="narrative">
+					<p>Elle sourit tristement, et dit en murmurant :</p>
+				</div>
+				<div type="dialogue">
+					<said>— Fatale beauté !</said>
+				</div>
+				<div type="narrative">
+					<p>Elle leva les yeux au ciel. En ce moment son regard eut je ne sais quelle
+						expression d’horreur si puissante, si vive, que <persName type="character"
+							>Sarrasine</persName> en tressaillit.</p>
+				</div>
+				<div type="dialogue">
+					<said>— <persName type="character" key="Sarrasine">Seigneur Français</persName>, 
+						<desc>reprit-elle,</desc> oubliez à jamais un instant
+						de folie. Je vous estime; mais, quant à de l’amour, ne m’en demandez pas; ce
+						sentiment est étouffé dans mon cœur. Je n’ai pas de cœur !
+							<desc>s’écria-t-elle en pleurant.</desc> Le
+							<placeName>théâtre</placeName> sur lequel vous m’avez vue, ces
+						applaudissements, cette musique, cette gloire, à laquelle on m’a condamnée,
+						voilà ma vie, je n’en ai pas d’autre. Dans <time>quelques heures</time> vous
+						ne me verrez plus des mêmes yeux, la femme que vous aimez sera morte.</said>
+				</div>
+				<div type="narrative">
+					<p>Le sculpteur ne répondit pas. Il était la proie d’une sourde rage qui lui
+						pressait le cœur. Il ne pouvait que regarder 
+						<persName type="character" key="Zambinella">cette femme extraordinaire</persName> 
+						avec des yeux enflammés qui brûlaient. Cette voix empreinte de faiblesse,
+						l’attitude, les manières et les gestes de <persName type="character"
+							>Zambinella</persName>, marqués de tristesse, de mélancolie et de
+						découragement, réveillaient dans son âme toutes les richesses de la passion.
+						Chaque parole était un aiguillon. En ce moment, ils étaient arrivés à
+							<placeName>Frascati.</placeName> Quand l’artiste tendit les bras à sa
+						maîtresse pour l’aider à descendre, il la sentit toute frissonnante.</p>
+				</div>
+				<div type="dialogue">
+					<said>— Qu’avez-vous ? Vous me feriez mourir, <desc>s’écria-t-il en la voyant
+							pâlir,</desc> si vous aviez la moindre douleur dont je fusse la cause
+						même innocente.</said>
+					<said>— Un serpent ! <desc>dit-elle en montrant une couleuvre qui se glissait le
+							long d’un fossé.</desc> J’ai peur de ces odieuses bêtes.</said>
+				</div>
+				<div type="narrative">
+					<p><persName type="character">Sarrasine</persName> écrasa la tête de la
+						couleuvre d’un coup de pied.</p>
+				</div>
+				<div type="dialogue">
+					<said>— Comment avez-vous assez de courage ! <desc>reprit <persName
+								type="character">la Zambinella</persName> en contemplant avec un
+							effroi visible le reptile mort.</desc></said>
+					<said>— Eh <choice>
+							<orig>!</orig>
+					</choice> bien, <desc>dit<persName type="character" key="Sarrasine">l’artiste </persName>
+						en souriant,</desc> oserez-vous bien
+						prétendre que vous n’êtes pas femme ?</said>
+				</div>
+				<div type="narrative">
+					<p>Ils rejoignirent leurs compagnons et se promenèrent dans les bois de la
+							<placeName>villa Ludovisi,</placeName> qui appartenait alors au
+							<persName type="character">cardinal Cicognara.</persName>
+						<time>Cette matinée</time> s’écoula trop vite pour
+						<persName type="character" key="Sarrasine">l’amoureux sculpteur</persName>,
+						mais elle fut remplie par une foule d’incidents qui lui dévoilèrent la
+						coquetterie, la faiblesse, la mignardise de cette âme molle et sans énergie.
+						C’était la femme avec ses peurs soudaines, ses caprices sans raison, ses
+						troubles instinctifs, ses audaces sans cause, ses bravades et sa délicieuse
+						finesse de sentiment. Il y eut un moment où, s’aventurant dans la
+							<geogName>campagne</geogName>, la petite troupe des joyeux chanteurs vit
+						de loin quelques hommes armés jusqu’aux dents, et dont le costume n’avait
+						rien de rassurant. À ce mot : — Voici des brigands, chacun doubla le pas
+						pour se mettre à l’abri dans l’enceinte de la <placeName>villa du
+							cardinal.</placeName> En cet instant critique, <persName
+							type="character">Sarrasine</persName> s’aperçut à la pâleur de <persName
+							type="character">la Zambinella</persName> qu’elle n’avait plus assez de
+						force pour marcher; il la prit dans ses bras et la porta, pendant quelque
+						temps, en courant. Quand il se fut rapproché d’une vigne voisine, il mit sa
+						maîtresse à terre.</p>
+				</div>
+				<div type="dialogue">
+					<said>— Expliquez-moi, <desc>lui dit-il,</desc> comment cette extrême faiblesse
+						qui, chez toute autre femme, serait hideuse, me déplairait, et dont la
+						moindre preuve suffirait presque pour éteindre mon amour, en vous me plaît,
+						me charme ?</said>
+					<said>— Oh ! combien je vous aime ! <desc>reprit-il.</desc> Tous vos défauts,
+						vos terreurs, vos petitesses ajoutent je ne sais quelle grâce à votre âme.
+						Je sens que je détesterais une femme forte, une <persName type="person"
+							>Sapho</persName>, courageuse, pleine d’énergie, de passion. <choice>
+							<orig>Ô</orig>
+							<reg>O</reg>
+							</choice> <persName type="character" key="Zambinella">frêle et douce créature</persName>!
+						comment peux-tu être autrement ? Cette
+						voix d’ange, cette voix délicate, eût été un contresens si elle <choice>
+							<orig>fût</orig>
+							<reg>fut</reg>
+						</choice> sortie d’un corps autre que le tien.</said>
+					<said>— Je ne puis, <desc>dit-elle,</desc> vous donner aucun espoir. Cessez de
+						me parler ainsi, car l’on se moquerait de vous. Il m’est impossible de vous
+						interdire l’entrée du <placeName>théâtre</placeName>; mais si vous m’aimez
+						ou si vous êtes sage, vous n’y viendrez plus. <choice>
+							<orig>Ecoutez</orig>
+							<reg>Écoutez</reg>
+						</choice>,<persName type="character" key="Sarrasine">monsieur</persName>, 
+						<desc>dit-elle d’une voix grave.</desc></said>
+					<said>— Oh ! tais-toi, <desc>dit <persName type="character" key="Sarrasine">l’artiste enivré</persName>.
+					</desc> Les obstacles attisent l’amour dans mon cœur.</said>
+				</div>
+				<div type="narrative">
+					<p><persName type="character">La Zambinella</persName> resta dans une attitude
+						gracieuse et modeste; mais elle se tut, comme si une pensée terrible lui eût
+						révélé quelque malheur. Quand il fallut revenir à
+							<placeName>Rome,</placeName> elle monta dans une berline à quatre
+						places, en ordonnant au sculpteur, d’un air impérieusement cruel, d’y
+						retourner seul avec le <choice>
+							<orig>phaéton</orig>
+							<reg>phaeton</reg>
+						</choice>. Pendant le chemin, <persName type="character"
+							>Sarrasine</persName> résolut d’enlever <persName type="character">la
+							Zambinella.</persName> Il passa toute <time>la journée</time> occupé à
+						former des plans plus extravagants les uns que les autres. <choice>
+							<orig>A</orig>
+							<reg>À</reg>
+						</choice>
+						<time>la nuit tombante</time>, au moment où il sortit pour aller demander à
+						quelques personnes où était situé <placeName>le palais</placeName> habité
+						par sa maîtresse, il rencontra l’un de ses camarades sur le seuil de la
+						porte.</p>
+				</div>
+				<div type="dialogue">
+					<said>— Mon cher, <desc>lui dit ce dernier,</desc> je suis chargé par notre
+						ambassadeur de t’inviter à venir <time>ce soir</time>
+						<placeName>chez lui.</placeName> Il donne un concert magnifique, et quand tu
+						sauras que <persName type="character">Zambinella</persName> y sera…</said>
+					<said>— <persName type="character">Zambinella </persName>! <desc> s’écria
+								<persName type="character">Sarrasine</persName> en délire à ce
+							nom,</desc> j’en suis fou !</said>
+					<said>— Tu es comme tout le monde, <desc>lui répondit son
+						camarade.</desc></said>
+					<said>— Mais si vous êtes mes amis, toi,<persName type="character">
+							Vien</persName>, <persName type="character"><choice>
+								<orig>Lauterbourg</orig>
+								<reg>Lautherbourg</reg>
+							</choice></persName> et <persName type="character">Allegrain,</persName>
+						vous me prêterez votre assistance pour un coup de main après la
+							fête,<desc>demanda <persName type="character">
+							Sarrasine.</persName></desc></said>
+					<said>— Il n’y a pas de cardinal à tuer, pas de…</said>
+					<said>— Non, non, <desc>dit <persName type="character"
+							>Sarrasine,</persName></desc> je ne vous demande rien que d’honnêtes
+						gens ne puissent faire.</said>
+				</div>
+				<div type="narrative">
+					<p>En peu de temps le sculpteur disposa tout pour le succès de son entreprise.
+						Il arriva l’un des derniers <placeName>chez l’ambassadeur,</placeName> mais
+						il y vint dans une voiture de voyage attelée de chevaux vigoureux menés par
+						l’un des plus entreprenants vetturini de <placeName>Rome</placeName>.
+							<placeName>Le palais de l’ambassadeur</placeName> étant plein de monde,
+						ce ne fut pas sans peine que le sculpteur, inconnu à tous les assistants,
+						parvint au <placeName>salon</placeName>
+						<choice>
+							<orig>où</orig>
+							<reg>ou</reg>
+						</choice> dans ce moment <persName type="character">Zambinella</persName>
+						chantait.</p>
+				</div>
+				<div type="dialogue">
+					<said>— C’est sans doute par égard pour les cardinaux, les évêques et les abbés
+						qui sont ici, <desc>demanda <persName type="character"
+							>Sarrasine,</persName></desc> qu’elle est habillée en homme, qu’elle a
+						une bourse derrière la tête, les cheveux crêpés et une épée au côté ?</said>
+					<said>— Elle ! Qui elle ? <desc>répondit le vieux seigneur auquel s’adressait
+								<persName type="person">Sarrasine.</persName></desc></said>
+					<said>— <persName type="character">La Zambinella.</persName></said>
+					<said>— <persName type="character">La Zambinella </persName>? <desc>reprit le
+							prince romain.</desc> Vous moquez-vous ? D’où venez-vous ? Est-il jamais
+						monté de femme sur les théâtres de <placeName>Rome</placeName> ? Et ne
+						savez-vous pas par quelles créatures les rôles de femme sont remplis dans
+						les <choice>
+							<orig>Etats</orig>
+							<reg>États</reg>
+						</choice> du pape ? C’est moi, monsieur, qui ai doté <persName
+							type="character">Zambinella</persName> de sa voix. J’ai tout payé à ce
+						drôle-là, même son maître à chanter. Eh bien, il a si peu de reconnaissance
+						du service que je lui ai rendu, qu’il n’a jamais voulu remettre les pieds
+							<placeName>chez moi</placeName>. Et cependant, s’il fait fortune, il me
+						la devra tout entière.</said>
+				</div>
+				<div type="narrative">
+					<p><persName type="person">Le prince Chigi</persName> aurait pu parler, certes,
+						longtemps, <persName type="character">Sarrasine </persName>ne l’écoutait
+						pas. Une affreuse vérité avait pénétré dans son âme. Il était frappé comme
+						d’un coup de foudre. Il resta immobile, les yeux attachés sur le prétendu
+						chanteur. Son regard flamboyant eut une sorte d’influence magnétique sur
+							<persName type="character">Zambinella,</persName> car le musico finit
+						par détourner subitement la vue vers <persName type="character"
+							>Sarrasine,</persName> et alors sa voix céleste s’altéra. Il trembla !
+						Un murmure involontaire échappé à l’assemblée, qu’il tenait comme attachée à
+						ses lèvres, acheva de le troubler; il s’assit, et discontinua son air.
+							<persName type="character">Le cardinal Cicognara,</persName> qui avait
+						épié du coin de l’œil la direction que prit le regard de son protégé,
+						aperçut alors le Français; il se pencha vers un de ses aides<choice>
+							<reg> </reg>
+						</choice>de<choice>
+							<reg> </reg>
+						</choice>camp ecclésiastiques, et parut demander le nom du sculpteur. Quand
+						il eut obtenu la réponse qu’il désirait, il contempla fort attentivement
+						l’artiste, et donna des ordres à un abbé, qui disparut avec prestesse.
+						Cependant <persName type="character">Zambinella</persName>, s’étant remis,
+						recommença le morceau qu’il avait interrompu si capricieusement; mais il
+						l’exécuta mal, et refusa, malgré toutes les instances qui lui furent faites,
+						de chanter autre chose. Ce fut la première fois qu’il exerça cette tyrannie
+						capricieuse qui, plus tard, ne le rendit pas moins célèbre que son talent et
+						son immense fortune, due, dit-on, non moins à sa voix qu’à sa beauté.</p>
+				</div>
+				<div type="dialogue">
+					<said>— C’est une femme, dit <persName type="character">Sarrasine</persName> en
+						se croyant seul. Il y a là-dessous quelque intrigue secrète. <persName
+							type="character">Le cardinal Cicognara</persName> trompe le pape et
+						toute la ville de <placeName>Rome</placeName>!</said>
+				</div>
+				<div type="narrative">
+					<p>Aussitôt le sculpteur sortit du <placeName>salon</placeName>, rassembla ses
+						amis, et les embusqua dans la <placeName>cour du palais.</placeName> Quand
+							<persName type="character">Zambinella</persName> se fut assuré du départ
+						de <persName type="character">Sarrasine</persName>, il parut recouvrer
+						quelque tranquillité. Vers <time>minuit</time>, après avoir erré dans les
+							<placeName>salons</placeName>, en homme qui cherche un ennemi, le musico
+						quitta l’assemblée. Au moment où il franchissait la porte du
+							<placeName>palais</placeName>, il fut adroitement saisi par des hommes
+						qui le bâillonnèrent avec un mouchoir et le mirent dans la voiture louée par
+							<persName type="character">Sarrasine</persName>. Glacé d’horreur,
+							<persName type="character">Zambinella</persName> resta dans un coin sans
+						oser faire un mouvement. Il voyait devant lui la figure terrible de
+						l’artiste qui gardait un silence de mort. Le trajet fut court. <persName
+							type="character">Zambinella,</persName> enlevé par <persName
+							type="character">Sarrasine,</persName> se trouva bientôt dans un
+							<placeName>atelier</placeName> sombre et nu. Le chanteur, à moitié mort,
+						demeura sur une chaise, sans oser regarder une statue de femme, dans
+						laquelle il reconnut ses traits. Il ne proféra pas une parole, mais ses
+						dents claquaient. Il était transi de peur. <persName type="character"
+							>Sarrasine</persName> se promenait à grands pas. Tout à coup il s’arrêta
+						devant <persName type="character">Zambinella.</persName></p>
+				</div>
+				<div type="dialogue">
+					<said>— Dis-moi la vérité, <desc>demanda-t-il d’une voix sourde et
+							altérée.</desc> Tu es une femme ? <persName type="character">Le cardinal
+							Cicognara…</persName></said>
+				</div>
+				<div type="narrative">
+					<p><persName type="character">Zambinella</persName> tomba sur ses genoux, et ne
+						répondit qu’en baissant la tête.</p>
+				</div>
+				<div type="dialogue">
+					<said>— Ah ! tu es une femme, <desc>s’écria l’artiste en délire;</desc> car même
+						un… <desc>Il n’acheva pas.</desc></said>
+					<said>— Non, <desc>reprit-il,</desc> il n’aurait pas tant de bassesse.</said>
+					<said>— Ah ! ne me tuez pas, <desc>s’écria <persName type="character"
+								>Zambinella</persName> fondant en larmes.</desc> Je n’ai consenti à
+						vous tromper que pour plaire à mes camarades, qui voulaient rire.</said>
+					<said>— Rire ! <desc>répondit le sculpteur d’une voix qui eut un éclat
+							infernal.</desc> Rire, rire ! Tu as osé te jouer d’une passion d’homme,
+						toi ?</said>
+					<said>— Oh ! grâce ! <desc>répliqua <persName type="character"
+								>Zambinella.</persName></desc></said>
+					<said>— Je devrais te faire mourir ! <desc>cria <persName type="character"
+								>Sarrasine</persName> en tirant son épée par un mouvement de
+							violence.</desc> Mais, <desc>reprit-il avec un dédain froid,</desc> en
+						fouillant ton être avec un poignard, y trouverais-je un sentiment à
+						éteindre, une vengeance à satisfaire ? Tu n’es rien. Homme ou femme, je te
+						tuerais ! mais... </said>
+				</div>
+				<div type="narrative">
+					<p><persName type="character">Sarrasine</persName> fit un geste de dégoût, qui
+						l’obligea de détourner sa tête, et alors il regarda la statue.</p>
+				</div>
+				<div type="dialogue">
+					<said>— Et c’est une illusion ! <desc>s’écria-t-il.</desc></said>
+				</div>
+				<div type="narrative">
+					<p>Puis se tournant vers <persName type="character">Zambinella</persName> :</p>
+				</div>
+				<div type="dialogue">
+					<said>— Un cœur de femme était pour moi un asile, une patrie. As-tu des sœurs
+						qui te ressemblent ? Non<choice>
+							<reg>.</reg>
+						</choice> Eh bien, meurs ! Mais non, tu vivras. Te laisser la vie<choice>
+							<reg>,</reg>
+						</choice> n’est-ce pas te vouer à quelque chose de pire que la mort ? Ce
+						n’est ni mon sang ni mon existence que je regrette, mais l’avenir et ma
+						fortune de cœur. Ta main débile a renversé mon bonheur. Quelle espérance
+						puis-je te ravir pour toutes celles que tu as flétries ? Tu m’as ravalé
+						jusqu’à toi. Aimer, être aimé ! sont désormais des <choice>
+							<orig>mois</orig>
+							<reg>mots</reg>
+						</choice> vides de sens pour moi, comme pour toi. Sans cesse je penserai à
+						cette femme imaginaire en voyant une femme réelle.</said>
+				</div>
+				<div type="narrative">
+					<p>Il montra la statue par un geste de désespoir.</p>
+				</div>
+				<div type="dialogue">
+					<said>— J’aurai toujours dans le souvenir une harpie céleste qui viendra
+						enfoncer ses griffes dans tous mes sentiments d’homme, et qui signera toutes
+						les autres femmes d’un cachet d’imperfection !<persName type="character" key="Zambinella">Monstre</persName>! 
+						 toi qui ne <choice>
+							<orig>peux</orig>
+							<reg>peut</reg>
+						</choice> donner la vie à rien, tu m’as dépeuplé la terre de toutes ses
+						femmes.</said>
+				</div>
+				<div type="narrative">
+					<p><persName type="character">Sarrasine</persName> s’assit en face du
+						<persName type="character" key="Zambinella">chanteur épouvanté</persName>. 
+						Deux grosses larmes sortirent de ses yeux secs, roulèrent le long
+						de ses joues mâles et tombèrent à terre : deux larmes de rage, deux larmes
+						âcres et brûlantes.</p>
+				</div>
+				<div type="dialogue">
+					<said>— Plus d’amour ! je suis mort à tout plaisir, à toutes les émotions
+						humaines.</said>
+				</div>
+				<div type="dialogue">
+					<p>À ces mots, il saisit un marteau et le lança sur la statue avec une force si
+						extravagante qu’il la manqua. Il crut avoir détruit ce monument de sa folie,
+						et alors il reprit son épée et la brandit pour tuer<persName type="character" key="Zambinella">le chanteur.</persName> 
+						<persName type="character">Zambinella</persName> jeta des cris perçants. En ce
+						moment trois hommes entrèrent, et soudain le sculpteur tomba percé de trois
+						coups de stylet.</p>
+				</div>
+				<div type="dialogue">
+					<said>— De la part du <persName type="character">cardinal Cicognara</persName>,
+							<desc>dit l’un d’eux.</desc></said>
+					<said>— C’est un bienfait digne d’un chrétien, <desc>répondit le Français en
+							expirant.</desc></said>
+				</div>
+				<div type="narrative">
+					<p>Ces sombres émissaires apprirent à <persName type="character"
+							>Zambinella</persName> l’inquiétude de son protecteur, qui attendait à
+						la porte dans une voiture fermée, afin de pouvoir l’emmener aussitôt qu’il
+						serait délivré.</p>
+				</div>
+
+			</div>
+			<div type="dialogue">
+				<said>— Mais, <desc>me dit <persName type="character">madame de
+							Rochefide,</persName></desc> quel rapport existe-t-il entre cette
+					histoire et le petit vieillard que nous avons vu <placeName>chez les
+						Lanty ?</placeName></said>
+				<said>— Madame, <persName type="character">le cardinal Cicognara</persName> se
+					rendit maître de la statue de <persName type="character">Zambinella</persName>
+					et la fit exécuter en marbre, elle est aujourd’hui dans <placeName>le musée
+						Albani.</placeName> C’est là qu’en <date>1791</date> la famille Lanty la
+					retrouva, et pria <persName type="character">Vien</persName> de la copier. Le
+					portrait qui vous a montré <persName type="character">Zambinella</persName> à
+					vingt ans, un instant après l’avoir vu centenaire, a servi plus tard pour
+						<name>l’Endymion de Girodet,</name> vous avez pu en reconnaître le type dans
+						<name>l’Adonis.</name></said>
+				<said>— Mais ce ou cette <persName type="character">Zambinella</persName> ?</said>
+				<said>— Ne saurait être, madame, que 
+					<persName type="character" key="Zambinella">le grand-oncle de Marianina</persName> 
+						. Vous devez concevoir maintenant l’intérêt que
+						<persName type="character" key="Mme_Lanty">madame de Lanty</persName> peut avoir à cacher
+					la source d’une fortune qui provient…</said>
+				<said>— Assez ! <desc>dit-elle en me faisant un geste impérieux.</desc></said>
+			</div>
+			<div type="narrative">
+				<p>Nous restâmes pendant un moment plongés dans le plus profond silence.</p>
+			</div>
+			<div type="dialogue">
+				<said>— Hé <choice>
+						<orig>!</orig>
+					</choice> bien ? <desc>lui dis-je.</desc></said>
+				<said>— Ah ! <desc>s’écria-t-elle en se levant et se promenant à grands pas dans la
+						chambre.</desc></said>
+			</div>
+			<div type="narrative">
+				<p>Elle vint me regarder, et me dit d’une voix altérée :</p>
+			</div>
+			<div type="dialogue">
+				<said>— Vous m’avez dégoûtée de la vie et des passions pour longtemps. Au monstre
+					près, tous les sentiments humains ne se dénouent-ils pas ainsi, par d’atroces
+					déceptions ? Mères, des enfants nous assassinent ou par leur mauvaise conduite
+					ou par leur froideur. Épouses, nous sommes trahies. Amantes, nous sommes
+					délaissées, abandonnées. L’amitié ! existe-t-elle ? Demain je me ferais dévote
+					si je ne savais pouvoir rester comme un roc inaccessible au milieu des orages de
+					la vie. Si l’avenir du chrétien est encore une illusion, au moins elle ne se
+					détruit qu’après la mort. Laissez-moi seule.</said>
+				<said>— Ah ! <desc>lui dis-je,</desc> vous savez punir.</said>
+				<said>— Aurais-je tort ?</said>
+				<said>— Oui, <desc>répondis-je avec une sorte de courage</desc>. En achevant cette
+					histoire, assez connue en <geogName>Italie</geogName>, je puis vous donner une
+					haute idée des progrès faits par la civilisation actuelle. On n’y fait plus de
+					ces malheureuses créatures.</said>
+				<said>— <placeName>Paris</placeName>, <desc>dit-elle,</desc> est une terre bien
+					hospitalière; il accueille tout, et les fortunes honteuses, et les fortunes
+					ensanglantées. Le crime et l’infamie y ont droit d’asile, y rencontrent des
+					sympathies; la vertu seule y est sans autels. Oui, les âmes pures ont une patrie
+					dans le ciel ! Personne ne m’aura connue ! J’en suis fière.</said>
+			</div>
+			<div type="narrative">
+				<p>Et la marquise resta pensive.</p>
+			</div>
+		</body>
+		<back>
+			<div type="colophon">
+				<p><placeName>Paris</placeName>, <date>novembre 1830</date>.</p>
+			</div>
+		</back>
+	</text>
+</TEI>
